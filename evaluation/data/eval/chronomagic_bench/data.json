@@ -1,0 +1,4831 @@
+[
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a sunrise over an ocean. The video starts with the pre-dawn orange sky, followed by the sun gradually rising above the horizon, illuminating the clouds and ocean. The sunlight grows increasingly intense, and by the end, the sun is fully visible above the horizon, bathing the scene in bright yellow and orange light.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a sunrise over an ocean. The video starts with the pre-dawn orange sky, followed by the sun gradually rising above the horizon, illuminating the clouds and ocean. The sunlight grows increasingly intense, and by the end, the sun is fully visible above the horizon, bathing the scene in bright yellow and orange light."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0940",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process: sunrise and illumination (optics/astronomy)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of cumulus clouds forming, growing, and dissipating: starts with a clear sky, small clouds form and grow larger with significant vertical development, reaching maximum size before breaking apart and leaving a clearer sky.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of cumulus clouds forming, growing, and dissipating: starts with a clear sky, small clouds form and grow larger with significant vertical development, reaching maximum size before breaking apart and leaving a clearer sky."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1642",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (cloud formation, growth, and dissipation) over time, not 3+ discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a fish decomposing over 5 days on a gravel surface: starting from a dead fish at 7 hours, showing early scavenger activity by 17 hours, significant decay by 42 hours, increased tissue breakdown by 66 hours, skeletal visibility by 91 hours, mostly skeletal remains by 116 hours, and continued decomposition with few scavengers by 126 hours.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a fish decomposing over 5 days on a gravel surface: starting from a dead fish at 7 hours, showing early scavenger activity by 17 hours, significant decay by 42 hours, increased tissue breakdown by 66 hours, skeletal visibility by 91 hours, mostly skeletal remains by 116 hours, and continued decomposition with few scavengers by 126 hours."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0416",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (decomposition) with time-lapse phases",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of mushrooms growing from bare, moist soil to a fully mature field. The sequence starts with emerging tiny white sprouts, which develop into small caps, and eventually into medium and large caps. The mushrooms continue growing, becoming more numerous and larger, until the entire soil surface is densely covered with fully matured, large mushroom caps.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of mushrooms growing from bare, moist soil to a fully mature field. The sequence starts with emerging tiny white sprouts, which develop into small caps, and eventually into medium and large caps. The mushrooms continue growing, becoming more numerous and larger, until the entire soil surface is densely covered with fully matured, large mushroom caps."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0838",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process: mushroom growth from sprout to maturity (time-lapse)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of creating galaxy-themed art on a stone: starting with a plain stone, adding a black base coat, applying blue hues, layering richer blue colors, detailing with lighter blue and white strokes, enhancing texture, adding white paint dots as stars, and finishing with a detailed galaxy design.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of creating galaxy-themed art on a stone: starting with a plain stone, adding a black base coat, applying blue hues, layering richer blue colors, detailing with lighter blue and white strokes, enhancing texture, adding white paint dots as stars, and finishing with a detailed galaxy design."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0991",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process (art creation on stone) with sequential steps, not 3+ distinct actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of an urban setting transitioning through the seasons: starting with bare trees and cars in late winter, progressing through wet and leafy spring, lush summer foliage, and ending with mostly bare trees in late autumn.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of an urban setting transitioning through the seasons: starting with bare trees and cars in late winter, progressing through wet and leafy spring, lush summer foliage, and ending with mostly bare trees in late autumn."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1214",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous physical/biological process (urban seasonal change) as time-lapse, not 3+ distinct actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a glass pane breaking from an intact state to fully shattered: starting with initial stress, progressing to cracks radiating from the center, increasing fragmentation into visible shards, and ultimately, the glass fully shattering with fragments dispersing.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a glass pane breaking from an intact state to fully shattered: starting with initial stress, progressing to cracks radiating from the center, increasing fragmentation into visible shards, and ultimately, the glass fully shattering with fragments dispersing."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0572",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process: glass pane breaking from stress, cracks, fragmentation, and dispersal, all part of one event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a seed germinating and growing over several days: starting with moist soil, showing initial sprouting, and gradual development of cotyledons, culminates with the seedling standing tall with cotyledons fully spread and the beginnings of true leaf formation.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a seed germinating and growing over several days: starting with moist soil, showing initial sprouting, and gradual development of cotyledons, culminates with the seedling standing tall with cotyledons fully spread and the beginnings of true leaf formation."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1258",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (seed germination and growth) with time-lapse narration",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a tree transitioning through the fall season. The video progresses from dark nighttime to daylight, showing the tree's leaves turning yellow and gradually falling. The sequence ends with the tree largely bare and another dark scene indicating evening or night.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a tree transitioning through the fall season. The video progresses from dark nighttime to daylight, showing the tree's leaves turning yellow and gradually falling. The sequence ends with the tree largely bare and another dark scene indicating evening or night."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0707",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological/physical process (color change, leaf fall, day-night cycle) in time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a sunflower's life cycle: beginning as a bud among green leaves, progressing to full bloom with vibrant yellow petals, and ending with the onset of wilting as petals droop and leaves wither.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a sunflower's life cycle: beginning as a bud among green leaves, progressing to full bloom with vibrant yellow petals, and ending with the onset of wilting as petals droop and leaves wither."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1057",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (life cycle growth and wilting) as time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a sunset over a verdant valley, showcasing the gradual changes from dim, cloud-diffused light to vibrant direct sunlight. The sun progresses from being obscured by clouds to casting intense golden light and pronounced shadows, culminating in a vivid golden hour effect as it nears the horizon.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a sunset over a verdant valley, showcasing the gradual changes from dim, cloud-diffused light to vibrant direct sunlight. The sun progresses from being obscured by clouds to casting intense golden light and pronounced shadows, culminating in a vivid golden hour effect as it nears the horizon."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0502",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "Single continuous physical process: sunset progression and changing light/shadows, governed by Earth's rotation and atmospheric optics.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a lunar eclipse showing the moon's transition from initial shadow to blood moon and back to full illumination. The sequence captures the start of the shadow, the deep red total eclipse phase with two stars visible, emergence from the shadow, and the return to a fully lit full moon.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a lunar eclipse showing the moon's transition from initial shadow to blood moon and back to full illumination. The sequence captures the start of the shadow, the deep red total eclipse phase with two stars visible, emergence from the shadow, and the return to a fully lit full moon."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0731",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous astronomical/optical process (lunar eclipse) shown as time-lapse, not 3+ discrete actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of laser engraving a detailed image and text onto a metallic surface: starting from an untouched surface, outlines gradually form, showing a face and text becoming clearer and more detailed over time, until the completed, highly detailed image is fully revealed.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of laser engraving a detailed image and text onto a metallic surface: starting from an untouched surface, outlines gradually form, showing a face and text becoming clearer and more detailed over time, until the completed, highly detailed image is fully revealed."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0681",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous time-lapse of a single engraving process, not 3+ distinct actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of mushrooms growing inside a growing medium covered with a plastic sheet, starting from small pins to mature mushrooms. The mushrooms sprout, grow taller, and their caps become more prominent, showing significant growth and maturity by the video's end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of mushrooms growing inside a growing medium covered with a plastic sheet, starting from small pins to mature mushrooms. The mushrooms sprout, grow taller, and their caps become more prominent, showing significant growth and maturity by the video's end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0857",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous biological growth process (mushrooms maturing) in time-lapse, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of snow melting around a twig, with the twig initially barely visible. As snow melts, more of the twig and the underlying ground are revealed. The hollow around the twig deepens and expands, eventually leaving the twig fully exposed with minimal snow remaining.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of snow melting around a twig, with the twig initially barely visible. As snow melts, more of the twig and the underlying ground are revealed. The hollow around the twig deepens and expands, eventually leaving the twig fully exposed with minimal snow remaining."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0628",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (snow melting) revealing the twig, not multiple discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of nighttime city highway shows fluctuating traffic: starts with minimal vehicles, slight changes in parked cars, and increased movement on the highway mid-sequence, followed by a reduction in traffic and sporadic vehicle activity towards the end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of nighttime city highway shows fluctuating traffic: starts with minimal vehicles, slight changes in parked cars, and increased movement on the highway mid-sequence, followed by a reduction in traffic and sporadic vehicle activity towards the end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1175",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "sequence of discrete events: minimal vehicles, changes in parked cars, increased movement, reduction in traffic; multiple distinct actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a daytime sky over a desert landscape with distant snowy mountains. The video shows changing cloud cover and lighting conditions, transitioning from partly cloudy to mostly clear skies, and then back to increased cloud cover before ending in clear skies again, indicating the passage of several hours from morning to peak daylight conditions.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a daytime sky over a desert landscape with distant snowy mountains. The video shows changing cloud cover and lighting conditions, transitioning from partly cloudy to mostly clear skies, and then back to increased cloud cover before ending in clear skies again, indicating the passage of several hours from morning to peak daylight conditions."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0394",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous process of cloud and lighting changes (atmospheric/optical) in time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a single tree experiencing seasonal changes over a year: starting with a snow-covered winter, transitioning to lush green leaves in late spring and summer, followed by yellowing leaves in early autumn, more prominent autumn foliage, bare branches in late autumn/early winter, and returning to a snow-covered winter, ending with early spring buds and melting snow.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a single tree experiencing seasonal changes over a year: starting with a snow-covered winter, transitioning to lush green leaves in late spring and summer, followed by yellowing leaves in early autumn, more prominent autumn foliage, bare branches in late autumn/early winter, and returning to a snow-covered winter, ending with early spring buds and melting snow."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1220",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous biological/physical process (tree seasonal changes) as time-lapse, not 3+ discrete actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a cityscape transitioning from dusk to nighttime: the video starts with a lighter sky and gradually increasing city lights, progressing through darker skies until the skyline is illuminated by city and road lights against a fully darkened sky.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a cityscape transitioning from dusk to nighttime: the video starts with a lighter sky and gradually increasing city lights, progressing through darker skies until the skyline is illuminated by city and road lights against a fully darkened sky."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0242",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process: dusk to night transition with gradual lighting changes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a nighttime camping scene in a forest: starts with a glowing tent and active campfire under a partially cloudy, starry sky, shows the campfire illuminating the surroundings, smoke drifting upwards, and clouds moving slightly. The brightness intensifies before gradually diminishing, leading to a darkened campsite with overcast skies by the end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a nighttime camping scene in a forest: starts with a glowing tent and active campfire under a partially cloudy, starry sky, shows the campfire illuminating the surroundings, smoke drifting upwards, and clouds moving slightly. The brightness intensifies before gradually diminishing, leading to a darkened campsite with overcast skies by the end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0507",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W0"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process: lighting, fire, smoke, and clouds change gradually, no discrete actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a carved pumpkin decaying: starting fresh and intact, showing early signs of drying and deflation, progressing through minor collapsing and color dulling, significant softening and structural collapse, to near-total disintegration by the end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a carved pumpkin decaying: starting fresh and intact, showing early signs of drying and deflation, progressing through minor collapsing and color dulling, significant softening and structural collapse, to near-total disintegration by the end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0356",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical/biological process (decay) with time-lapse, not 3+ discrete actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a public square starting with sparse pedestrian activity, increasing to a diverse and busy scene, with heavy road traffic, and ending with pedestrians using umbrellas, indicating light rain.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a public square starting with sparse pedestrian activity, increasing to a diverse and busy scene, with heavy road traffic, and ending with pedestrians using umbrellas, indicating light rain."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1022",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process (crowd and traffic density changing, rain at end) in time-lapse, not 3+ discrete actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a suburban forest's seasonal transition from late summer to autumn. The foliage changes gradually from green to vibrant hues of red, orange, and yellow, depicting the approach and full bloom of fall.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a suburban forest's seasonal transition from late summer to autumn. The foliage changes gradually from green to vibrant hues of red, orange, and yellow, depicting the approach and full bloom of fall."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0709",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (seasonal foliage color change) depicted as gradual transition, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a wind turbine rotating during a sunset: starting with the blade almost vertical, it undergoes steady clockwise rotation through various angles, and by the end, returns to an almost vertical position again, indicating a full rotation.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a wind turbine rotating during a sunset: starting with the blade almost vertical, it undergoes steady clockwise rotation through various angles, and by the end, returns to an almost vertical position again, indicating a full rotation."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1562",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (wind turbine rotation) over time, not multiple discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a storm approaching and intensifying: beginning with a partly cloudy sky and some sunshine, progressing to increasingly dense and dark clouds, and culminating in near-complete darkness as the storm reaches its peak.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a storm approaching and intensifying: beginning with a partly cloudy sky and some sunshine, progressing to increasingly dense and dark clouds, and culminating in near-complete darkness as the storm reaches its peak."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1396",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (storm intensification) described as gradual progression",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a series of explosions occurring in a rural area. Initial fireballs are followed by rising smoke and dust clouds. As the explosions continue, heavy smoke obscures the horizon, merging into thick columns. The video concludes with widespread smoke clouds dominating the landscape, illustrating the aftermath of the explosions.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a series of explosions occurring in a rural area. Initial fireballs are followed by rising smoke and dust clouds. As the explosions continue, heavy smoke obscures the horizon, merging into thick columns. The video concludes with widespread smoke clouds dominating the landscape, illustrating the aftermath of the explosions."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0410",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous process of multiple explosions merging into aftermath, not 3+ distinct actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse capturing the dynamic movement and transformation of cumulus clouds in the sky. Initially fluffy and scattered, the clouds gradually alter in shape and density, form larger masses, overlap, and finally appear heavier and denser by the video's end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse capturing the dynamic movement and transformation of cumulus clouds in the sky. Initially fluffy and scattered, the clouds gradually alter in shape and density, form larger masses, overlap, and finally appear heavier and denser by the video's end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1276",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (cloud movement/transformation) as time-lapse, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a busy city intersection at night, showing varying traffic patterns with cars, buses, and pedestrians. The video captures significant vehicular movement, fluctuating traffic density, transitions in vehicle speeds, and steady pedestrian activity, highlighting a natural progression of urban nightlife.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a busy city intersection at night, showing varying traffic patterns with cars, buses, and pedestrians. The video captures significant vehicular movement, fluctuating traffic density, transitions in vehicle speeds, and steady pedestrian activity, highlighting a natural progression of urban nightlife."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1512",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process: traffic flow and density changes over time",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of mealworms consuming a lemon slice over 8 hours: starting largely intact at Hour 20, beginning to show damage by Hour 21, with significant chunks missing by Hour 22. By Hour 24, it has gaping holes; heavy degradation continues through Hour 26, and by Hour 28, only small remnants remain.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of mealworms consuming a lemon slice over 8 hours: starting largely intact at Hour 20, beginning to show damage by Hour 21, with significant chunks missing by Hour 22. By Hour 24, it has gaping holes; heavy degradation continues through Hour 26, and by Hour 28, only small remnants remain."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0766",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process: mealworm consumption and degradation of lemon slice",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a factory's CNC vertical 5-axis milling/turning machine assembly. Starts with an introductory logo, progresses through stages of setup with increasing components and machinery activity, moving towards full machinery assembly. The final frame is hazy, possibly indicating testing or final adjustments.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a factory's CNC vertical 5-axis milling/turning machine assembly. Starts with an introductory logo, progresses through stages of setup with increasing components and machinery activity, moving towards full machinery assembly. The final frame is hazy, possibly indicating testing or final adjustments."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0443",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process: machine assembly and setup, not 3+ discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a brownie baking inside an oven: starting from liquid batter, heating and solidifying with gradual rising, forming a crust by midway, and eventually becoming fully risen with a firm, darkened crust by the end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a brownie baking inside an oven: starting from liquid batter, heating and solidifying with gradual rising, forming a crust by midway, and eventually becoming fully risen with a firm, darkened crust by the end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0074",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (baking, phase change, crust formation) in time-lapse, not 3+ discrete actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a solar eclipse at Waterfront Park, Burlington. It begins with a bright day and progresses through the stages of the eclipse: dimming light, near-total darkness, and the gradual return of daylight. The crowd is seen observing throughout, with the event concluding in full daylight.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a solar eclipse at Waterfront Park, Burlington. It begins with a bright day and progresses through the stages of the eclipse: dimming light, near-total darkness, and the gradual return of daylight. The crowd is seen observing throughout, with the event concluding in full daylight."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1316",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process (eclipse) with crowd as static observers; time-lapse, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of cloud dissipation over a day, starting with a moderately cloudy sky. Clouds gradually reduce, revealing more blue sky. By halfway, only scattered clouds remain. Towards the end, the sky becomes predominantly clear with only a few peripheral clouds remaining.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of cloud dissipation over a day, starting with a moderately cloudy sky. Clouds gradually reduce, revealing more blue sky. By halfway, only scattered clouds remain. Towards the end, the sky becomes predominantly clear with only a few peripheral clouds remaining."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0333",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous meteorological process (cloud dissipation) in time-lapse, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a tomato ripening on the plant: starting completely green, showing no changes initially, beginning to yellow, progressing to orange and yellow, turning mostly orange, becoming mostly red with some orange spots, and finally reaching full ripeness in a deep red color.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a tomato ripening on the plant: starting completely green, showing no changes initially, beginning to yellow, progressing to orange and yellow, turning mostly orange, becoming mostly red with some orange spots, and finally reaching full ripeness in a deep red color."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1137",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process: tomato ripening, with detailed color progression",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of seed germination and plant growth over 26 days: starting with seeds in moist soil on Day 1, germinating by Day 4, emerging seedlings with leaves by Day 8, taller seedlings by Day 12, denser foliage by Day 16, broader leaves by Day 19, robust plants by Day 23, and mature plants filling the frame by Day 26.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of seed germination and plant growth over 26 days: starting with seeds in moist soil on Day 1, germinating by Day 4, emerging seedlings with leaves by Day 8, taller seedlings by Day 12, denser foliage by Day 16, broader leaves by Day 19, robust plants by Day 23, and mature plants filling the frame by Day 26."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1249",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (plant growth) with time-lapse phases, not distinct events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of mealworms decomposing a yellow pepper and a lemon over several hours. The yellow pepper starts intact, gradually degrades, and is almost fully decomposed. A lemon is then introduced, initially intact, but shows significant decomposition by the video's end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of mealworms decomposing a yellow pepper and a lemon over several hours. The yellow pepper starts intact, gradually degrades, and is almost fully decomposed. A lemon is then introduced, initially intact, but shows significant decomposition by the video's end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0764",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process: decomposition of pepper and lemon by mealworms",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of plant germination and early growth stages: seeds in moist soil begin to germinate, shoot emergence progresses, cotyledons rise, open, and seedlings grow taller, leading to a prominent seedling with fully open cotyledons by the video's end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of plant germination and early growth stages: seeds in moist soil begin to germinate, shoot emergence progresses, cotyledons rise, open, and seedlings grow taller, leading to a prominent seedling with fully open cotyledons by the video's end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1243",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (germination and early growth) as time-lapse, not 3+ discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a sunset on a beach with palm trees, transitioning from late afternoon to twilight. The sun descends from high in the sky to almost set, casting vibrant colors and long shadows. Beachgoers and changing sky hues enhance the serene ambiance, with the beach activity continuing as the sun leaves a reddish-orange glow on the horizon.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a sunset on a beach with palm trees, transitioning from late afternoon to twilight. The sun descends from high in the sky to almost set, casting vibrant colors and long shadows. Beachgoers and changing sky hues enhance the serene ambiance, with the beach activity continuing as the sun leaves a reddish-orange glow on the horizon."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1446",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (sunset: sun lowering, color/shadow changes), time-lapse narration; beachgoers are ambient",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a misty mountain range, beginning with thick mist obscuring much of the view. Gradually, the mist dissipates, revealing more of the mountain peaks and the vegetative forest foreground. By the end, the mist is almost entirely gone, providing a clear view of the mountain range and the forest.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a misty mountain range, beginning with thick mist obscuring much of the view. Gradually, the mist dissipates, revealing more of the mountain peaks and the vegetative forest foreground. By the end, the mist is almost entirely gone, providing a clear view of the mountain range and the forest."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0498",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "Single continuous physical process: dissipation of mist revealing landscape, governed by fluid dynamics and atmospheric conditions.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a blue morpho butterfly emerging from its chrysalis, starting with an intact chrysalis, progressively splitting open, revealing the butterfly, which gradually emerges with its wings and body becoming visible, until almost entirely free from the chrysalis by the end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a blue morpho butterfly emerging from its chrysalis, starting with an intact chrysalis, progressively splitting open, revealing the butterfly, which gradually emerges with its wings and body becoming visible, until almost entirely free from the chrysalis by the end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0201",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (butterfly emergence) with time-lapse phases, not distinct events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of peaches rotting over an extended period: starting fresh, with early browning and darkening, followed by significant mold growth and discoloration, extensive mold coverage, heavy shrinking and structural collapse, transitioning to severe decay with blackened and heavily moldy flesh, and ending with shrunken, mold-covered peaches in an advanced state of decay.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of peaches rotting over an extended period: starting fresh, with early browning and darkening, followed by significant mold growth and discoloration, extensive mold coverage, heavy shrinking and structural collapse, transitioning to severe decay with blackened and heavily moldy flesh, and ending with shrunken, mold-covered peaches in an advanced state of decay."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0519",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (rotting and mold growth) described in time-lapse phases, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a Minecraft construction project transforming a natural landscape into a fortified compound. It begins with untouched nature, progresses through foundational work, wall building, and interior detailing, and concludes with a complete, vibrant build featuring lava and a central green structure.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a Minecraft construction project transforming a natural landscape into a fortified compound. It begins with untouched nature, progresses through foundational work, wall building, and interior detailing, and concludes with a complete, vibrant build featuring lava and a central green structure."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0826",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process: landscape transformation and construction, time-lapse phases, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of traffic flow on a multi-lane urban road, showing varying traffic densities. It starts with moderate traffic, increases to heavy congestion, then clears, and picks up again. The sequence highlights peak and off-peak periods, characterized by changing numbers and speeds of vehicles.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of traffic flow on a multi-lane urban road, showing varying traffic densities. It starts with moderate traffic, increases to heavy congestion, then clears, and picks up again. The sequence highlights peak and off-peak periods, characterized by changing numbers and speeds of vehicles."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0229",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (traffic density changes) over time, not 3+ discrete actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a spider constructing its web in a forest: beginning with initial web setup, progressing through intricate radial and circular patterns, and concluding with the completed web with the spider positioned at its center.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a spider constructing its web in a forest: beginning with initial web setup, progressing through intricate radial and circular patterns, and concluding with the completed web with the spider positioned at its center."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1343",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (web construction) in time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a busy parking lot showing gradual increase in the number of parked cars. Initially, several central spaces are empty, but as time progresses, more cars fill these spaces. By the end, most spaces, particularly in the central area and near the entrance, are occupied. The last frame features a visual glitch, making the parking lot less visible.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a busy parking lot showing gradual increase in the number of parked cars. Initially, several central spaces are empty, but as time progresses, more cars fill these spaces. By the end, most spaces, particularly in the central area and near the entrance, are occupied. The last frame features a visual glitch, making the parking lot less visible."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0989",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process (parking lot filling) over time, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of hamburger patties cooking in a frying pan: starts with raw patties, progresses as heat causes moisture and color changes, edges begin to brown, and cooking continues with increasing browning and moisture until patties are thoroughly cooked.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of hamburger patties cooking in a frying pan: starts with raw patties, progresses as heat causes moisture and color changes, edges begin to brown, and cooking continues with increasing browning and moisture until patties are thoroughly cooked."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0274",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (patties cooking and browning) in time-lapse, not 3+ discrete actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of fireworks displays showcasing various bursts and patterns. Starting with initial bursts, advancing to symmetrical and dense starburst patterns, followed by intricate overlays and simultaneous bursts of different colors. The video concludes with a dense convergence of multiple fireworks, indicating the climax of the display.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of fireworks displays showcasing various bursts and patterns. Starting with initial bursts, advancing to symmetrical and dense starburst patterns, followed by intricate overlays and simultaneous bursts of different colors. The video concludes with a dense convergence of multiple fireworks, indicating the climax of the display."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0479",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "Continuous physical process (fireworks display with evolving patterns) as a single time-lapse event; pattern changes are phases, not discrete actions.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a restaurant counter's activity: starting with three patrons, fluctuating between moments of single patrons, busy periods with multiple patrons, and brief quiet intervals, showing patrons interacting with the cashier, enjoying drinks, and leaving the counter area. The video captures the dynamic flow of customer interactions and varying levels of activity over time.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a restaurant counter's activity: starting with three patrons, fluctuating between moments of single patrons, busy periods with multiple patrons, and brief quiet intervals, showing patrons interacting with the cashier, enjoying drinks, and leaving the counter area. The video captures the dynamic flow of customer interactions and varying levels of activity over time."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1120",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "Distinct actions: patrons arrive, interact, enjoy drinks, leave—sequence of 3+ discrete actions.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of an orange decaying over 54 days: begins fresh, remains unchanged by Day 4, slightly dehydrated by Day 13, leaking by Day 21, mold appearing by Day 29, significant mold spread by Day 38, extensive mold coverage by Day 46, and thoroughly decayed with dense mold by Day 54.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of an orange decaying over 54 days: begins fresh, remains unchanged by Day 4, slightly dehydrated by Day 13, leaking by Day 21, mold appearing by Day 29, significant mold spread by Day 38, extensive mold coverage by Day 46, and thoroughly decayed with dense mold by Day 54."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0530",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological/chemical process (decay) with time-lapse phases, not distinct events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a night view city skyline by the waterfront: starts with illuminated buildings and smooth water reflections, increasingly vibrant lights, green and blue laser beams, and growing boat activity that enhances the dynamic reflections on the water throughout the video.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a night view city skyline by the waterfront: starts with illuminated buildings and smooth water reflections, increasingly vibrant lights, green and blue laser beams, and growing boat activity that enhances the dynamic reflections on the water throughout the video."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0127",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "multiple distinct events: lighting changes, laser beams, increasing boat activity, and dynamic reflections",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a historic church building with a green roof and modern skyscrapers in the background, showing the transition of light and shadow throughout the day. Clear skies and strong sunlight gradually change to cloud cover and diffused light, before returning to clear skies and pronounced shadows, indicating a full cycle of environmental and lighting changes.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a historic church building with a green roof and modern skyscrapers in the background, showing the transition of light and shadow throughout the day. Clear skies and strong sunlight gradually change to cloud cover and diffused light, before returning to clear skies and pronounced shadows, indicating a full cycle of environmental and lighting changes."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0147",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous environmental/lighting changes over time, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a Minecraft construction project. Starting with a large circular base and triangular patterns, it progresses through stages of glowing triangular structures, adding height and complexity. A central conical red and white structure emerges, followed by intricate arrangements and vertical growth, culminating in a finished twin tower-like structure at the center.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a Minecraft construction project. Starting with a large circular base and triangular patterns, it progresses through stages of glowing triangular structures, adding height and complexity. A central conical red and white structure emerges, followed by intricate arrangements and vertical growth, culminating in a finished twin tower-like structure at the center."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0811",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous process of a construction project in time-lapse, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a white rodent decomposing over 18 days: initially appearing fresh, showing early signs of decay and insect activity by Day 2, advancing with visible insect presence by Day 4, collapsing by Day 8, and reaching a highly decomposed and flattened state with organic matter around by Day 18.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a white rodent decomposing over 18 days: initially appearing fresh, showing early signs of decay and insect activity by Day 2, advancing with visible insect presence by Day 4, collapsing by Day 8, and reaching a highly decomposed and flattened state with organic matter around by Day 18."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0364",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (rodent decomposition) as time-lapse, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a droplet evaporating on a green surface: starting large, gradually shrinking, forming a thin film, and finally disappearing to complete evaporation.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a droplet evaporating on a green surface: starting large, gradually shrinking, forming a thin film, and finally disappearing to complete evaporation."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0548",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (droplet evaporation) in time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of daily activities outside a lively café. Patrons engage in conversations while pedestrians and café workers move continuously. Highlights include patrons leaving, a woman with a shopping bag, increased activity with more bystanders, and diverse pedestrian interactions, showcasing a vibrant and bustling street and café atmosphere.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of daily activities outside a lively café. Patrons engage in conversations while pedestrians and café workers move continuously. Highlights include patrons leaving, a woman with a shopping bag, increased activity with more bystanders, and diverse pedestrian interactions, showcasing a vibrant and bustling street and café atmosphere."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1539",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous process of activity and movement, not 3+ distinct discrete actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a group of people, likely students, walking up a stairway towards a building. The sequence shows a continuous movement of the crowd with prominent red and white flags appearing on and near the building. The video ends with the majority of the crowd nearing the top of the stairs and approaching the building entrance.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a group of people, likely students, walking up a stairway towards a building. The sequence shows a continuous movement of the crowd with prominent red and white flags appearing on and near the building. The video ends with the majority of the crowd nearing the top of the stairs and approaching the building entrance."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1534",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process: group walking up stairs, time-lapse of movement towards building",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a butter dollop melting in a pan: starting as a solid, gradually liquefying around the edges, with increasing bubbling as the heat intensifies. The melting progresses until the butter is mostly liquid with extensive bubbling, indicating the high temperature of the pan.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a butter dollop melting in a pan: starting as a solid, gradually liquefying around the edges, with increasing bubbling as the heat intensifies. The melting progresses until the butter is mostly liquid with extensive bubbling, indicating the high temperature of the pan."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0271",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (butter melting) in time-lapse, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a desert landscape, emphasizing changes in cloud cover and lighting. The video begins with a cloud-covered sky, transitioning to dispersed clouds and bright sunlight, then back to minimal cloud cover with soft lighting indicating a later time of day. Joshua trees and rock formations are highlighted throughout the video, reflecting the dynamic desert environment.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a desert landscape, emphasizing changes in cloud cover and lighting. The video begins with a cloud-covered sky, transitioning to dispersed clouds and bright sunlight, then back to minimal cloud cover with soft lighting indicating a later time of day. Joshua trees and rock formations are highlighted throughout the video, reflecting the dynamic desert environment."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0400",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process: cloud cover and lighting changes (atmospheric physics, time-lapse)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a tea bag immersed in a glass of water, showing the gradual infusion process: starting with clear water, beginning to diffuse with a yellow tint, progressing to a light brown, then richer brown, and finally achieving a deep brown color, indicating complete infusion.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a tea bag immersed in a glass of water, showing the gradual infusion process: starting with clear water, beginning to diffuse with a yellow tint, progressing to a light brown, then richer brown, and finally achieving a deep brown color, indicating complete infusion."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1445",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical/chemical process (tea infusion: diffusion, color change), time-lapse narration",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of turtle eggs hatching: starting with three eggs partially buried in soil, minor surface cracks appear, one egg develops significant cracks, and a turtle begins to emerge. The first turtle fully hatches while the other eggs show similar signs of hatching. Finally, one turtle is completely out, held in a hand with a broken eggshell nearby.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of turtle eggs hatching: starting with three eggs partially buried in soil, minor surface cracks appear, one egg develops significant cracks, and a turtle begins to emerge. The first turtle fully hatches while the other eggs show similar signs of hatching. Finally, one turtle is completely out, held in a hand with a broken eggshell nearby."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0601",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (turtle hatching) with time-lapse, not 3+ discrete actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a busy indoor pedestrian passage showing a continuous flow of diverse individuals and groups walking, with visible advertisements on the walls. The passage remains consistently crowded with dynamic changes in the people present, reflecting steady pedestrian traffic and some interactions among the pedestrians.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a busy indoor pedestrian passage showing a continuous flow of diverse individuals and groups walking, with visible advertisements on the walls. The passage remains consistently crowded with dynamic changes in the people present, reflecting steady pedestrian traffic and some interactions among the pedestrians."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1029",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous time-lapse of crowd flow and interactions, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a charcoal grill burning: starting with emerging flames, flames consistently spreading across the charcoal, becoming more intense, with the charcoal gradually being consumed and reduced in volume by the end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a charcoal grill burning: starting with emerging flames, flames consistently spreading across the charcoal, becoming more intense, with the charcoal gradually being consumed and reduced in volume by the end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0168",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (combustion and material consumption) described as time-lapse phases",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a parking lot over a day. Initially nearly empty at night, car occupancy gradually increases by dawn, reaches near full by mid-morning, peaks in early afternoon, then decreases in the early evening. By night, the lot is again mostly empty, with visible pedestrians appearing.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a parking lot over a day. Initially nearly empty at night, car occupancy gradually increases by dawn, reaches near full by mid-morning, peaks in early afternoon, then decreases in the early evening. By night, the lot is again mostly empty, with visible pedestrians appearing."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1002",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process: occupancy increases and decreases, pedestrians as co-occurring effect, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a deer carcass decomposition over five days, showing initial death, followed by gradual insect activity and tissue breakdown. Day 1 begins with a fresh carcass, moving to initial decay by Day 2. By Days 3 and 4, significant decomposition is evident with collapsed structure and revealed internal organs. By Day 5, bones are prominently exposed amid advanced tissue decomposition.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a deer carcass decomposition over five days, showing initial death, followed by gradual insect activity and tissue breakdown. Day 1 begins with a fresh carcass, moving to initial decay by Day 2. By Days 3 and 4, significant decomposition is evident with collapsed structure and revealed internal organs. By Day 5, bones are prominently exposed amid advanced tissue decomposition."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0352",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process (decomposition) with gradual changes, not 3+ distinct events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a multi-level shopping mall showing fluctuations in foot traffic: beginning with a moderate flow, followed by a slight decrease, then increasing activity, peaking with significant movement, and alternating between moderate and busy periods, before steadying with a moderate number of people on both levels and escalators.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a multi-level shopping mall showing fluctuations in foot traffic: beginning with a moderate flow, followed by a slight decrease, then increasing activity, peaking with significant movement, and alternating between moderate and busy periods, before steadying with a moderate number of people on both levels and escalators."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0753",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous process: mall foot traffic fluctuating, time-lapse, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a yellow daffodil wilting: starting from fully bloomed with vibrant petals, showing sequential stages of reduced vibrancy and drooping, petals progressively curling inward, darkening, and ultimately ending in a significantly wilted and shriveled state.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a yellow daffodil wilting: starting from fully bloomed with vibrant petals, showing sequential stages of reduced vibrancy and drooping, petals progressively curling inward, darkening, and ultimately ending in a significantly wilted and shriveled state."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0470",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "Single continuous biological process (wilting) shown in time-lapse; sequential stages are phases, not discrete events.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a lunar eclipse showing the progression from a fully visible Moon, through partial and total eclipses, and back to full visibility, capturing each phase including penumbral and totality stages.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a lunar eclipse showing the progression from a fully visible Moon, through partial and total eclipses, and back to full visibility, capturing each phase including penumbral and totality stages."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0718",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous astronomical process (lunar eclipse) with phase narration, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a solar eclipse viewed from a crowded outdoor stadium. Starts with a bright sun, progressing through dimming stages, partial coverage, peak darkness, and receding phases, ultimately returning to full daylight. Changes in ambient light and crowd reactions are evident throughout.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a solar eclipse viewed from a crowded outdoor stadium. Starts with a bright sun, progressing through dimming stages, partial coverage, peak darkness, and receding phases, ultimately returning to full daylight. Changes in ambient light and crowd reactions are evident throughout."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1317",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process (eclipse) with crowd reactions as co-occurring effects; time-lapse, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a building's construction: beginning with materials and machinery, progressing with the erection of a central crane, forming the base framework, further structural development, visible roof structure, and expanding into a multi-storied building around the crane.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a building's construction: beginning with materials and machinery, progressing with the erection of a central crane, forming the base framework, further structural development, visible roof structure, and expanding into a multi-storied building around the crane."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0142",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process (building construction) in time-lapse, not 3+ discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of traffic patterns on a busy urban bridge, showing fluctuations in vehicle density. The sequence includes various cars, buses, and taxis, with periods of decreased and increased traffic flow. Notable changes include a distinctive yellow taxi and multiple occurrences of buses, illustrating a consistent yet dynamic traffic movement over time.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of traffic patterns on a busy urban bridge, showing fluctuations in vehicle density. The sequence includes various cars, buses, and taxis, with periods of decreased and increased traffic flow. Notable changes include a distinctive yellow taxi and multiple occurrences of buses, illustrating a consistent yet dynamic traffic movement over time."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1499",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous process (traffic density and vehicle types) with no discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a plant growing from Day 19 to Day 33, showing progressive leaf development and signs of stress. Initially moderately sized with wilting leaves, it grows more robust and upright by Day 22. By Day 26, it's taller with older leaves sagging. The plant continues growing with new leaves and a thick central stem, reaching full maturity by Day 33.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a plant growing from Day 19 to Day 33, showing progressive leaf development and signs of stress. Initially moderately sized with wilting leaves, it grows more robust and upright by Day 22. By Day 26, it's taller with older leaves sagging. The plant continues growing with new leaves and a thick central stem, reaching full maturity by Day 33."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1074",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous biological process (plant growth and stress response) over time, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of three pink flowers wilting. The sequence starts with the flowers in full bloom, showing initial signs of petal edges drooping. The flowers progressively show more significant signs of age and discoloration. As the wilt progresses, petals collapse inward and lose color. By the end, the flowers are completely wilted, with dried, shriveled petals and lost structure.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of three pink flowers wilting. The sequence starts with the flowers in full bloom, showing initial signs of petal edges drooping. The flowers progressively show more significant signs of age and discoloration. As the wilt progresses, petals collapse inward and lose color. By the end, the flowers are completely wilted, with dried, shriveled petals and lost structure."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0481",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (wilting) with gradual stages, time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of shrimp being grilled, starting from raw with hands seasoning, gradually turning pink, and developing a charred appearance. The shrimp are turned and adjusted throughout the cooking process, showing progressively more pink and charring, culminating in fully cooked, pink, and charred shrimp ready to be served.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of shrimp being grilled, starting from raw with hands seasoning, gradually turning pink, and developing a charred appearance. The shrimp are turned and adjusted throughout the cooking process, showing progressively more pink and charring, culminating in fully cooked, pink, and charred shrimp ready to be served."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0269",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous cooking process (shrimp grilling and turning) with minor manual adjustments, but still one overall process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a lake's water level rising over an extended period, where the initially visible sand banks are gradually submerged as the water continually expands, eventually leaving almost no sand exposed by the end of the sequence.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a lake's water level rising over an extended period, where the initially visible sand banks are gradually submerged as the water continually expands, eventually leaving almost no sand exposed by the end of the sequence."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0667",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process: water level rising and submerging sand",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a powerful explosion over the ocean, likely a nuclear test. It begins with a dome-shaped cloud, followed by a massive water plume rising and forming a mushroom cloud. The plume collapses, spreading horizontally and diffusing further, with the final frame showing the dissipating cloud blending with the environment.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a powerful explosion over the ocean, likely a nuclear test. It begins with a dome-shaped cloud, followed by a massive water plume rising and forming a mushroom cloud. The plume collapses, spreading horizontally and diffusing further, with the final frame showing the dissipating cloud blending with the environment."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0425",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical event (explosion and plume formation/dispersal) with time-lapse narration",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a rural landscape: rocky hillside and grassy foreground under partly cloudy skies. The sequence highlights gentle cloud movements and lighting changes over a few hours, culminating in significant cloud displacement towards the horizon, while the overall brightness of the scenery increases gradually.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a rural landscape: rocky hillside and grassy foreground under partly cloudy skies. The sequence highlights gentle cloud movements and lighting changes over a few hours, culminating in significant cloud displacement towards the horizon, while the overall brightness of the scenery increases gradually."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1041",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous physical process: cloud movement and lighting changes, time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of the night sky over rocky terrain, showing star trails forming and lengthening throughout the night, reflecting the Earth's rotation. As dawn approaches, star trails begin to fade and the sky transitions from darkness to a brightening horizon with pinkish hues.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of the night sky over rocky terrain, showing star trails forming and lengthening throughout the night, reflecting the Earth's rotation. As dawn approaches, star trails begin to fade and the sky transitions from darkness to a brightening horizon with pinkish hues."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0931",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous astronomical/atmospheric process (star trails, dawn) in time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of grass growing in an orange cat-shaped pot: beginning from no visible growth, then sprouting and progressively growing taller and denser. Grass appears trimmed at one point and then continues to regrow, eventually reaching nearly its original pre-trim height.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of grass growing in an orange cat-shaped pot: beginning from no visible growth, then sprouting and progressively growing taller and denser. Grass appears trimmed at one point and then continues to regrow, eventually reaching nearly its original pre-trim height."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1238",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (growth, trimming, regrowth) as a time-lapse, not 3+ discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of bell peppers ripening in a greenhouse. Initially, they are uniformly green and gradually grow larger. Over time, they start showing signs of color change, transitioning from green to light red, and finally nearing full ripeness with significant red hues.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of bell peppers ripening in a greenhouse. Initially, they are uniformly green and gradually grow larger. Over time, they start showing signs of color change, transitioning from green to light red, and finally nearing full ripeness with significant red hues."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1145",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (growth and ripening) in time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a bridge construction, beginning with foundational support and initial bridge deck stages. Progression includes pillars, extended bridge deck spans, and segments with heavy machinery. Further frames show detailed work, additional segments, and supporting beams. Final construction stages depict a nearly complete bridge deck with minor construction and inspections left.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a bridge construction, beginning with foundational support and initial bridge deck stages. Progression includes pillars, extended bridge deck spans, and segments with heavy machinery. Further frames show detailed work, additional segments, and supporting beams. Final construction stages depict a nearly complete bridge deck with minor construction and inspections left."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0150",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous physical process (bridge construction) as a time-lapse, not 3+ discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a 3D printed perforated skull: starting from base layers, developing a complex net-like structure, becoming a discernable skull shape, and nearing completion. Finishing touches include manual inspection and an outdoor display, showcasing UV-reactive properties. The sequence ends with the print bed, confirming the process's completion.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a 3D printed perforated skull: starting from base layers, developing a complex net-like structure, becoming a discernable skull shape, and nearing completion. Finishing touches include manual inspection and an outdoor display, showcasing UV-reactive properties. The sequence ends with the print bed, confirming the process's completion."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0004",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 3,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "contains 3D printing (W3), manual inspection, and outdoor display as distinct actions—crosses into W4",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of mushrooms growing using an organic grow kit: starting with no visible growth, slight darkening and initial signs by early stages, followed by noticeable darkening, small clusters forming, larger clusters developing, and significant growth, culminating in fully grown mushrooms ready for harvesting.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of mushrooms growing using an organic grow kit: starting with no visible growth, slight darkening and initial signs by early stages, followed by noticeable darkening, small clusters forming, larger clusters developing, and significant growth, culminating in fully grown mushrooms ready for harvesting."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0855",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous biological process (mushroom growth) with time-lapse narration, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of mushrooms growing on a decaying substrate: starting with small buds, gradually enlarging and developing more defined caps by mid-sequence, showing detailed textures, and finally reaching full maturity with large, overlapping caps.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of mushrooms growing on a decaying substrate: starting with small buds, gradually enlarging and developing more defined caps by mid-sequence, showing detailed textures, and finally reaching full maturity with large, overlapping caps."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0849",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process: mushroom growth and maturation",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a tree's autumn color change over 16 days: starting mostly green, then showing patches of orange by Oct. 5, more pronounced orange and yellow hues by Oct. 9, increased vibrancy by Oct. 10, advanced autumn colors on Oct. 12, and a full blend of bright orange and yellow leaves with fallen leaves on the ground by Oct. 13.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a tree's autumn color change over 16 days: starting mostly green, then showing patches of orange by Oct. 5, more pronounced orange and yellow hues by Oct. 9, increased vibrancy by Oct. 10, advanced autumn colors on Oct. 12, and a full blend of bright orange and yellow leaves with fallen leaves on the ground by Oct. 13."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0692",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (tree color change) narrated as time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a leafy plant's development over 97 days: starting with mature green leaves, the plant shows healthy growth with leaves enlarging and the core structure expanding. Significant structural changes occur, indicating vigorous growth, culminating in new shoots or leaves near the base.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a leafy plant's development over 97 days: starting with mature green leaves, the plant shows healthy growth with leaves enlarging and the core structure expanding. Significant structural changes occur, indicating vigorous growth, culminating in new shoots or leaves near the base."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1079",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous biological process (plant growth and shoot development) over time, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of sunrise over a beach with a pier. The sequence captures the gradual ascent of the sun from pre-dawn light, through vibrant sunrise colors, to the sun fully risen, illuminating the sky, ocean, and pier, with a flock of birds flying across the warm morning glow.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of sunrise over a beach with a pier. The sequence captures the gradual ascent of the sun from pre-dawn light, through vibrant sunrise colors, to the sun fully risen, illuminating the sky, ocean, and pier, with a flock of birds flying across the warm morning glow."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1427",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "primarily a single continuous physical process (sunrise, illumination), with a minor co-occurring event (birds flying) that does not constitute a distinct event sequence",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a glass vessel breaking due to sound vibrations from surrounding megaphones: starting intact, minor cracks forming, expanding cracks, significant cracking, initial break with fragments, severe breaking, defined broken portions, and substantial damage while remaining upright. An overview includes a person and vehicle near the setup.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a glass vessel breaking due to sound vibrations from surrounding megaphones: starting intact, minor cracks forming, expanding cracks, significant cracking, initial break with fragments, severe breaking, defined broken portions, and substantial damage while remaining upright. An overview includes a person and vehicle near the setup."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0569",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process: glass breaking due to sound vibrations, with progressive cracking and breaking, overview elements are static",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a green and yellow melon rotting over 50 days: starting fresh on Day 1, minor changes by Day 8, significant mold by Day 15, dense mold by Day 22, heavy mold and structural collapse by Day 29, liquid pooling by Day 36, further structure collapse by Day 43, and near-total collapse with heavy mold and liquefaction by Day 50.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a green and yellow melon rotting over 50 days: starting fresh on Day 1, minor changes by Day 8, significant mold by Day 15, dense mold by Day 22, heavy mold and structural collapse by Day 29, liquid pooling by Day 36, further structure collapse by Day 43, and near-total collapse with heavy mold and liquefaction by Day 50."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0525",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological/chemical process (rotting, mold, liquefaction) described in time-lapse, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of office activity showing multiple people moving, interacting, and working: initial busy gathering, shifting positions, more interactions, then quieter scenes with fewer people focusing on desk work, periodic entries and movements, ending with minimal changes in office layout and continued individual focus at workstations.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of office activity showing multiple people moving, interacting, and working: initial busy gathering, shifting positions, more interactions, then quieter scenes with fewer people focusing on desk work, periodic entries and movements, ending with minimal changes in office layout and continued individual focus at workstations."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0950",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous time-lapse of office activity with shifting focus and participants, not 3+ discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of icicles forming and growing under a snow-covered surface above a flowing stream. Beginning with small icicles, they progressively elongate and thicken, showing continuous freezing of dripping water. The final stage exhibits fully formed, long, and thick icicles with well-defined tips, highlighting the accumulation of ice.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of icicles forming and growing under a snow-covered surface above a flowing stream. Beginning with small icicles, they progressively elongate and thicken, showing continuous freezing of dripping water. The final stage exhibits fully formed, long, and thick icicles with well-defined tips, highlighting the accumulation of ice."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1557",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (icicle formation/growth) as time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of water freezing over a running stream: initially forming an ice layer, which becomes denser and more extensive, diminishing water flow. Ice crystals and small icicles gradually develop and grow. The video shows the freezing process intensifying until the ice layer reaches a smooth, extensive coverage, indicating near completion.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of water freezing over a running stream: initially forming an ice layer, which becomes denser and more extensive, diminishing water flow. Ice crystals and small icicles gradually develop and grow. The video shows the freezing process intensifying until the ice layer reaches a smooth, extensive coverage, indicating near completion."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1542",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process: water freezing over stream with ice crystal growth",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a bustling restaurant buffet area: patrons queue and move around the buffet counter, with notable changes in their clothing and positions, indicating increasing activity over time. Key moments include a man in red pajama pants, a person stacking plates, and a boy in a cream shirt holding a plate towards the end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a bustling restaurant buffet area: patrons queue and move around the buffet counter, with notable changes in their clothing and positions, indicating increasing activity over time. Key moments include a man in red pajama pants, a person stacking plates, and a boy in a cream shirt holding a plate towards the end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1128",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous time-lapse of crowd movement and position changes, but all as a single continuous process of activity increase, not 3+ discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of cupcakes baking in an oven, showing the progression from freshly placed batter to fully baked cupcakes with well-defined, golden-brown tops. The batter rises, forms domed shapes, and gradually acquires browning, culminating in perfectly baked cupcakes.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of cupcakes baking in an oven, showing the progression from freshly placed batter to fully baked cupcakes with well-defined, golden-brown tops. The batter rises, forms domed shapes, and gradually acquires browning, culminating in perfectly baked cupcakes."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1646",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "Single continuous physical/chemical process (baking/rising/browning) depicted as time-lapse, not discrete actions.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of ice cubes melting on a yellow plate: beginning as solid cubes, starting to melt with water glistening, significantly reduced ice size with pooling water, mostly melted with few pieces left, and fully melted with only water pooling at the end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of ice cubes melting on a yellow plate: beginning as solid cubes, starting to melt with water glistening, significantly reduced ice size with pooling water, mostly melted with few pieces left, and fully melted with only water pooling at the end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0623",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous melting of ice cubes, all phases are part of one physical process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of clouds moving around a tall, steep mountain peak under clear blue skies. The clouds progressively shift and flow around the peak, creating dynamic patterns while maintaining dense coverage at the base, indicating consistent atmospheric conditions. The snowy, alpine landscape emphasizes a cold, high-altitude environment.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of clouds moving around a tall, steep mountain peak under clear blue skies. The clouds progressively shift and flow around the peak, creating dynamic patterns while maintaining dense coverage at the base, indicating consistent atmospheric conditions. The snowy, alpine landscape emphasizes a cold, high-altitude environment."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0833",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process: cloud movement around mountain peak (time-lapse)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a white daisy flower transitioning from a fresh, vibrant state to a heavily wilted condition. The flower starts fully bloomed with water droplets, gradually wilting as petals lose rigidity and droop, and the center fades. Water droplets disappear over time, indicating dehydration, culminating in most petals drooped and only a few droplets remaining.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a white daisy flower transitioning from a fresh, vibrant state to a heavily wilted condition. The flower starts fully bloomed with water droplets, gradually wilting as petals lose rigidity and droop, and the center fades. Water droplets disappear over time, indicating dehydration, culminating in most petals drooped and only a few droplets remaining."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0540",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological/physical process (wilting and dehydration) shown as time-lapse, not 3+ discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of ice melting: starting with a large, intact mass of ice, progressively shrinking and rounding, producing more liquid along the way. The ice pieces become smaller and more dispersed until almost entirely melted, leaving just liquid by the end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of ice melting: starting with a large, intact mass of ice, progressively shrinking and rounding, producing more liquid along the way. The ice pieces become smaller and more dispersed until almost entirely melted, leaving just liquid by the end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0771",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process: ice melting over time",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a glass pane breaking: starts intact, impact creates radial cracks that spread, central hole forms and enlarges, larger sections collapse inward, and glass fragments scatter until nearly fully disintegrated.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a glass pane breaking: starts intact, impact creates radial cracks that spread, central hole forms and enlarges, larger sections collapse inward, and glass fragments scatter until nearly fully disintegrated."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0573",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process: glass pane breaking, cracks spreading, hole forming, sections collapsing, all part of one physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of water freezing, starting with initial ice formations at the edges, progressing through detailed and expanding ice patterns, becoming denser, with the ice layer nearly complete by the end, and finally, the water surface is fully frozen.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of water freezing, starting with initial ice formations at the edges, progressing through detailed and expanding ice patterns, becoming denser, with the ice layer nearly complete by the end, and finally, the water surface is fully frozen."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1544",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process: water freezing and ice layer formation",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of steel metal bars undergoing a rusting process: initial light rust, increasing coverage, significant expansion to orange by mid-point, further deepening to a darker orange and brown, culminating in heavy and consistent rust by the end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of steel metal bars undergoing a rusting process: initial light rust, increasing coverage, significant expansion to orange by mid-point, further deepening to a darker orange and brown, culminating in heavy and consistent rust by the end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1193",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "Single continuous chemical process (rusting) with progressive coverage and color change.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of the nighttime demolition of a bridge over a highway, followed by the daytime cleanup process. Multiple excavators dismantle the bridge, progressing from initial setup to significant deconstruction, and finally, debris removal. The video ends with the highway almost cleared and minimal equipment remaining.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of the nighttime demolition of a bridge over a highway, followed by the daytime cleanup process. Multiple excavators dismantle the bridge, progressing from initial setup to significant deconstruction, and finally, debris removal. The video ends with the highway almost cleared and minimal equipment remaining."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0372",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (demolition and cleanup) shown as time-lapse, not 3+ discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of nighttime transitioning to daylight at a prominent temple. The sequence shows a night scene with an illuminated temple, followed by the gradual lightening of the sky through dawn, with hues of blue, orange, and pink. The sun's rays eventually warm the scene, culminating in full daylight with the temple and surroundings fully lit.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of nighttime transitioning to daylight at a prominent temple. The sequence shows a night scene with an illuminated temple, followed by the gradual lightening of the sky through dawn, with hues of blue, orange, and pink. The sun's rays eventually warm the scene, culminating in full daylight with the temple and surroundings fully lit."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1618",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process: night to day transition (lighting, sky color)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a large commercial building being demolished and the site prepared for new construction: starting intact with vehicles around, partial demolition with debris, extensive removal of the building, rubble clearance, leveling of the ground, and structured groundwork indicating readiness for potential new construction.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a large commercial building being demolished and the site prepared for new construction: starting intact with vehicles around, partial demolition with debris, extensive removal of the building, rubble clearance, leveling of the ground, and structured groundwork indicating readiness for potential new construction."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0383",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous demolition and site preparation process, time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a red hibiscus flower wilting and then appearing fresh again. The flower starts fully bloomed, gradually wilts with petals curling and shriveling, and finally returns to its original full bloom state, likely due to video editing effects.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a red hibiscus flower wilting and then appearing fresh again. The flower starts fully bloomed, gradually wilts with petals curling and shriveling, and finally returns to its original full bloom state, likely due to video editing effects."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0491",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (wilting and return to bloom) as a time-lapse, likely video reversal, still one process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a heavily rusted yellow toy truck undergoing a de-rusting process. Initially covered in rust, the truck gradually becomes cleaner over time, with noticeable progress in rust removal at each stage, culminating in an almost completely de-rusted and clean yellow toy truck by the video's end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a heavily rusted yellow toy truck undergoing a de-rusting process. Initially covered in rust, the truck gradually becomes cleaner over time, with noticeable progress in rust removal at each stage, culminating in an almost completely de-rusted and clean yellow toy truck by the video's end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1200",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous chemical process (de-rusting) shown as time-lapse, not 3+ discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a metal plate undergoing rusting over time: starting with a minimally rusted plate, then progressing with increasing rust formation and solution darkening, leading to thicker rust deposits and significant sediment formation in the solution by the end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a metal plate undergoing rusting over time: starting with a minimally rusted plate, then progressing with increasing rust formation and solution darkening, leading to thicker rust deposits and significant sediment formation in the solution by the end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1199",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "Single continuous chemical process (rusting and solution darkening) with progressive phases.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a storm developing over an urban area: starting with thick, dark clouds, intensifying as they become denser and more complex, and culminating in a sky filled with dark, vigorous formations, indicating a sustained and powerful storm system.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a storm developing over an urban area: starting with thick, dark clouds, intensifying as they become denser and more complex, and culminating in a sky filled with dark, vigorous formations, indicating a sustained and powerful storm system."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1393",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (storm development) with gradual intensification, not discrete actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a mountainous sunset transitioning to dusk: initial sunlight dimming as clouds move and spread across the sky, gradually elongating and dispersing. The scene progresses through early evening, showing significantly lower light levels and stretched, dispersed clouds, ending in early dusk with a darkened sky.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a mountainous sunset transitioning to dusk: initial sunlight dimming as clouds move and spread across the sky, gradually elongating and dispersing. The scene progresses through early evening, showing significantly lower light levels and stretched, dispersed clouds, ending in early dusk with a darkened sky."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0244",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process: sunset to dusk with cloud movement and light changes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of tomatoes ripening in a greenhouse: starting with mostly green tomatoes, progressing through stages of yellow to orange, and ending with fully ripe red tomatoes, illustrating the entire ripening process.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of tomatoes ripening in a greenhouse: starting with mostly green tomatoes, progressing through stages of yellow to orange, and ending with fully ripe red tomatoes, illustrating the entire ripening process."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1149",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (ripening) in time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a busy fast-food restaurant during a festive period: patrons queuing and dining, crowd increasing around the counter and dining areas, patrons starting and actively eating their meals, the number of diners gradually decreasing, and finally, diners finishing their meals with minimal remaining activity.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a busy fast-food restaurant during a festive period: patrons queuing and dining, crowd increasing around the counter and dining areas, patrons starting and actively eating their meals, the number of diners gradually decreasing, and finally, diners finishing their meals with minimal remaining activity."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1119",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "Multiple discrete actions: queuing, dining, crowd increasing, diners eating, diners leaving—3+ distinct events.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a radish plant growing over 26 days: starting with soil preparation and watering, seed germination by Day 6, visible leaves and roots by Day 14, significant root and foliage development by Day 20, a mature plant with a large root by Day 26, and ending with the radish root being harvested.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a radish plant growing over 26 days: starting with soil preparation and watering, seed germination by Day 6, visible leaves and roots by Day 14, significant root and foliage development by Day 20, a mature plant with a large root by Day 26, and ending with the radish root being harvested."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1091",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological growth process (radish plant), time-lapse narration, no discrete events except harvest, but harvest is the endpoint of the process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a tulip field progressing from early bloom to peak bloom under overcast skies. Initially, the flowers are partially budded, gradually increasing in open petals, and eventually achieving full bloom with minimal buds remaining, resulting in a vibrant and dense floral display.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a tulip field progressing from early bloom to peak bloom under overcast skies. Initially, the flowers are partially budded, gradually increasing in open petals, and eventually achieving full bloom with minimal buds remaining, resulting in a vibrant and dense floral display."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0878",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous biological process: tulip blooming, time-lapse of plant growth",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a parking lot progressively filling with vehicles, starting from sparse occupancy in the morning and gradually achieving full capacity by the end, reflecting peak activity with no vacant spots remaining.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a parking lot progressively filling with vehicles, starting from sparse occupancy in the morning and gradually achieving full capacity by the end, reflecting peak activity with no vacant spots remaining."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1000",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process: lot fills with vehicles over time, no discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a nighttime waterfront scene with a lit bridge and city skyline. Pedestrians move along the walkway, and a boat appears and moves back and forth. Over time, the pedestrian activity decreases, and by the end, the boat's lights reflect vividly on the water.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a nighttime waterfront scene with a lit bridge and city skyline. Pedestrians move along the walkway, and a boat appears and moves back and forth. Over time, the pedestrian activity decreases, and by the end, the boat's lights reflect vividly on the water."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1164",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "multiple distinct events: pedestrians move, boat appears and moves, pedestrian activity decreases, boat's lights reflect; sequence of discrete actions over time",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a blooming tea flower unfurling in water within a glass container: starting from a submerged bundle, gradually expanding with petals and leaves becoming more distinct, halfway open by the mid-point, nearly fully diffused by the latter stages, and finally fully bloomed with the water infused.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a blooming tea flower unfurling in water within a glass container: starting from a submerged bundle, gradually expanding with petals and leaves becoming more distinct, halfway open by the mid-point, nearly fully diffused by the latter stages, and finally fully bloomed with the water infused."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1461",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical/biological process (blooming and diffusion) with gradual unfolding, time-lapse narration",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a sunset over a landscape: starting with the sun just above the horizon, progressing to deeper hues and colorful clouds, the sun nearing and dipping below the horizon, leaving a golden afterglow, deeper twilight hues, and finally, the onset of night with a darkened sky and silhouetted horizon.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a sunset over a landscape: starting with the sun just above the horizon, progressing to deeper hues and colorful clouds, the sun nearing and dipping below the horizon, leaving a golden afterglow, deeper twilight hues, and finally, the onset of night with a darkened sky and silhouetted horizon."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1272",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (sunset progression, atmospheric/optical change) depicted as a time-lapse, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of tidal changes on a sandy beach with a green mountainous backdrop. Calm waves initially approach the shore, gradually increasing in height and intensity. The shore becomes increasingly covered by water as the tide comes in, with notable wave activity and rising water levels throughout the sequence.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of tidal changes on a sandy beach with a green mountainous backdrop. Calm waves initially approach the shore, gradually increasing in height and intensity. The shore becomes increasingly covered by water as the tide comes in, with notable wave activity and rising water levels throughout the sequence."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0096",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (tidal rise and wave activity) shown as time-lapse, not 3+ discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a cityscape transitioning from nighttime to early morning: starting with illuminated buildings at night, dawn breaking with golden light touching building tops, and progressing to a fully illuminated city under early morning light.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a cityscape transitioning from nighttime to early morning: starting with illuminated buildings at night, dawn breaking with golden light touching building tops, and progressing to a fully illuminated city under early morning light."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0892",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (night to morning light progression), time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a metallic object rusting over the course of Day 2: starting with no rust, early signs of rust after rain, progressively increasing rust coverage, and finally becoming almost entirely uniformly rusted by the end of the day.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a metallic object rusting over the course of Day 2: starting with no rust, early signs of rust after rain, progressively increasing rust coverage, and finally becoming almost entirely uniformly rusted by the end of the day."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1209",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous chemical process (rusting) over time, described in time-lapse phases",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of fruit decomposing: starting with slight mold, progressively showing increased mold growth and decay, with gloved hands tearing it apart. The fruit's condition worsens, with severe decomposition and mold coverage, ending in darkness, likely signifying the culmination of the rotting process.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of fruit decomposing: starting with slight mold, progressively showing increased mold growth and decay, with gloved hands tearing it apart. The fruit's condition worsens, with severe decomposition and mold coverage, ending in darkness, likely signifying the culmination of the rotting process."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0526",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "multiple distinct actions (tearing apart, ending in darkness) interleaved with ongoing decomposition, making it a sequence of discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a bird's decomposition over 240 days: starting with an intact carcass on day 14, showing slight discoloration by day 47, noticeable tissue breakdown by day 81, increased decay by day 115, significant tissue loss by day 150, extensive decomposition by day 184, largely exposed skeletal structure by day 218, and minimal tissue remaining by day 240.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a bird's decomposition over 240 days: starting with an intact carcass on day 14, showing slight discoloration by day 47, noticeable tissue breakdown by day 81, increased decay by day 115, significant tissue loss by day 150, extensive decomposition by day 184, largely exposed skeletal structure by day 218, and minimal tissue remaining by day 240."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0359",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process (decomposition) with time-lapse, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a house burning from initial ignition to near-total destruction: fire starts on the right side, spreads to the roof, engulfs the house, and causes roof collapse. Eventually, the house is mostly destroyed and reduced to smoldering debris.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a house burning from initial ignition to near-total destruction: fire starts on the right side, spreads to the roof, engulfs the house, and causes roof collapse. Eventually, the house is mostly destroyed and reduced to smoldering debris."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0177",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (house burning and destruction) described as time-lapse, not discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a spider constructing a web: starts by hanging from a single thread, methodically fixes radial lines to a central hub, continues adding more radii, progressively forming a well-defined web structure, and completes a central cluster of radii before moving outward.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a spider constructing a web: starts by hanging from a single thread, methodically fixes radial lines to a central hub, continues adding more radii, progressively forming a well-defined web structure, and completes a central cluster of radii before moving outward."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1326",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (web construction) with stepwise progression, not 3+ discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of clouds hovering over a landscape, progressively thinning from a dense cover to sparse clouds. The video starts with minimal sky visible, gradually revealing more blue sky and land, and ends with very thin, scattered clouds, offering clear views of both the landscape and sky.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of clouds hovering over a landscape, progressively thinning from a dense cover to sparse clouds. The video starts with minimal sky visible, gradually revealing more blue sky and land, and ends with very thin, scattered clouds, offering clear views of both the landscape and sky."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0254",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (cloud thinning/dispersal) in time-lapse, no discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a cooking process where raw food pieces are fried in hot oil, showing stages from initial heating to almost uniform golden-brown completion with decreasing bubbling, while stirring ensures even cooking.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a cooking process where raw food pieces are fried in hot oil, showing stages from initial heating to almost uniform golden-brown completion with decreasing bubbling, while stirring ensures even cooking."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0285",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process: frying food with stirring, bubbling decreases as cooking progresses",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a night sky showing the Milky Way galaxy's movement due to Earth's rotation, against a silhouetted tree. Stars gradually shift upward, and horizon light increases, indicating the approach of dawn, while the Milky Way moves near the top of the frame by the end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a night sky showing the Milky Way galaxy's movement due to Earth's rotation, against a silhouetted tree. Stars gradually shift upward, and horizon light increases, indicating the approach of dawn, while the Milky Way moves near the top of the frame by the end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_0906",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process (star movement due to Earth's rotation, dawn light) as time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of a bus station during the early evening transition into peak hours, showing increasing traffic and bus activity, with a bustling atmosphere around the station as cars and buses move through the area.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of a bus station during the early evening transition into peak hours, showing increasing traffic and bus activity, with a bustling atmosphere around the station as cars and buses move through the area."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1374",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 3,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous increase in traffic and bus activity—single process of crowding, not clearly broken into discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "chronomagic_bench",
+    "prompt": [
+      {
+        "content": "Time-lapse of an unidentified plant growing over six months: broad leaves emerge from a central stem, further elongate, and increase in density. By Day 162, the center has fuller, denser foliage. The plant continues thickening, and by Day 180, it is fully matured with well-developed, elongated leaves.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Time-lapse of an unidentified plant growing over six months: broad leaves emerge from a central stem, further elongate, and increase in density. By Day 162, the center has fuller, denser foliage. The plant continues thickening, and by Day 180, it is fully matured with well-developed, elongated leaves."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_chronomagic_1080",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological growth process with time-lapse narration, no discrete events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  }
+]

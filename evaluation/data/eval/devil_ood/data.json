@@ -1,0 +1,4808 @@
+[
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Middle aged man walking downtown montreal city",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Middle aged man walking downtown montreal city"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00303",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single action: man walking; location and subject",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "A car speeds through a tunnel, echoing loudly, as it races out the other end.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A car speeds through a tunnel, echoing loudly, as it races out the other end."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00054",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: car speeds through tunnel (echo is effect)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "person wearing white hat and top sitting on wall in background",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "person wearing white hat and top sitting on wall in background"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00618",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene: person sitting on wall in background, no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "A horse races across a field, suddenly jumping over a fallen tree.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A horse races across a field, suddenly jumping over a fallen tree."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00093",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (horse racing/jumping) as a continuous motion, not a physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "the train passes by.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "the train passes by."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00286",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: train passes by",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "A crow explodes out of the bushes, frightening a passing car.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A crow explodes out of the bushes, frightening a passing car."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00039",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "crow explodes out (event 1), frightens car (event 2)—two distinct actions, but 'frightening' is a discrete effect, so borderline W4",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Expressway sunset",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Expressway sunset"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00474",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static expressway at sunset, no action or event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "At dawn, a zebra bursts out from the tall grass, racing the rising sun.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "At dawn, a zebra bursts out from the tall grass, racing the rising sun."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00158",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (zebra bursts/races); dawn and sun are atmospheric context",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "two trains are passing each other going in opposite directions",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "two trains are passing each other going in opposite directions"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00447",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "two trains, each performing a single action (passing), but simultaneous, not sequential",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "the car passes a blue sign.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "the car passes a blue sign."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00513",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: car passing sign; no explicit physics law invoked",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "New york: brooklyn skyline, time lapse at sunset with big sun and colorful clodus, manhattan, usa",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "New york: brooklyn skyline, time lapse at sunset with big sun and colorful clodus, manhattan, usa"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00472",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "time-lapse of sunset and cloud movement, continuous physical process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "A boat escapes a collapsing iceberg by speeding away.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A boat escapes a collapsing iceberg by speeding away."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00049",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "3 distinct events: iceberg collapses, boat speeds away, boat escapes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Bicycle wheels that spin and stop on the gravel stone",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Bicycle wheels that spin and stop on the gravel stone"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00333",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: wheels spin and stop (momentum, friction)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "A bicycle, ridden furiously in a race, shatters into pieces as it collides with a barrier, sending sparks and debris flying.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A bicycle, ridden furiously in a race, shatters into pieces as it collides with a barrier, sending sparks and debris flying."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00691",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "collision, shattering, sparks/debris are physical events (impact, material breakage)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Kids play tag, darting around and between moving robots.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Kids play tag, darting around and between moving robots."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00108",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (playing tag/darting) with co-occurring moving robots; no explicit physics law or multi-event sequence",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Waiting young man watching time on watch",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Waiting young man watching time on watch"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00608",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose (waiting, watching), no explicit motion verb",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Road trip, by car on the roads of oregon, wa, usa",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Road trip, by car on the roads of oregon, wa, usa"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00360",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient travel scene, no explicit action or event, reads as moving postcard",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a large white box truck travels through water is followed by two other trucks and ascends a gray road through mountains",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a large white box truck travels through water is followed by two other trucks and ascends a gray road through mountains"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00642",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3",
+        "W4"
+      ],
+      "confidence": 3,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "sequence of distinct actions: truck travels through water, is followed, ascends road",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a game character is riding around the city on a motorcycle",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a game character is riding around the city on a motorcycle"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00234",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: game character riding motorcycle",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a black van parks.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a black van parks."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00523",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (parks), momentary event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a path to the bicycles can be seen",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a path to the bicycles can be seen"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00489",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene: path to bicycles visible, spatial relation",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Rayong thailand , july 30 - 2016 :  lift truck use in factory area for move part supply to production",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Rayong thailand , july 30 - 2016 :  lift truck use in factory area for move part supply to production"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00289",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: lift truck moving parts",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "we pass a black car on the left coming from the opposite direction, while driving down the road.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "we pass a black car on the left coming from the opposite direction, while driving down the road."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00362",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: passing a car while driving, with spatial relation",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "the dead bird is on the ground.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "the dead bird is on the ground."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00499",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene: dead bird on ground, no action or motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Cyclists zoom through a tunnel, lights flashing by in a blur as echoes of their passage fill the air.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Cyclists zoom through a tunnel, lights flashing by in a blur as echoes of their passage fill the air."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00035",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "Cyclists zooming through tunnel is a single non-physics action (zooming), with lights and echoes as co-occurring effects.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "second bird lands on feedersecond bird lands on feeder",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "second bird lands on feedersecond bird lands on feeder"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00496",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: bird lands on feeder",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Day time guangzhou cityscape riverside famous museum aerial panorama 4k china",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Day time guangzhou cityscape riverside famous museum aerial panorama 4k china"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00468",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static aerial cityscape panorama, no focal action or event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Foal and horse grazing",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Foal and horse grazing"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00387",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose: foal and horse grazing, no explicit motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "man in black coat is first seen.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "man in black coat is first seen."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00621",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static description: man is first seen, no action described",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "1940s: cowgirl yodeling is featured in this curious 1940s soundie musical.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "1940s: cowgirl yodeling is featured in this curious 1940s soundie musical."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00429",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: yodeling",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "4k uhd time lapse of kuala lumpur city view during dusk sunset overlooking the city skyline. pan right",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "4k uhd time lapse of kuala lumpur city view during dusk sunset overlooking the city skyline. pan right"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00461",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient time-lapse cityscape, pan right; no focal action, just atmosphere",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Male boxer resting and sweating after boxing training",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Male boxer resting and sweating after boxing training"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00413",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose: boxer resting and sweating, no action verb",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Rio de janeiro, rio de janeiro / brazil - 11 23 2018: escadaria selaron shot",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Rio de janeiro, rio de janeiro / brazil - 11 23 2018: escadaria selaron shot"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00302",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static location shot, no action or event described",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Beautiful young lady with long brown hair and in white cowboy hat smiles and looks at sky extreme side close view",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Beautiful young lady with long brown hair and in white cowboy hat smiles and looks at sky extreme side close view"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00270",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: lady smiles and looks at sky; 'extreme side close view' is a camera angle",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "A woman races up stairs as water floods the building.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A woman races up stairs as water floods the building."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00109",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "woman racing (W2) but water flooding is a simultaneous physical process (fluid dynamics); both occur together",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Aerial of sailboats in the harbor part 2. drone flies over sailboats in bird's eye view in 4k. sunny day and blue sky",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Aerial of sailboats in the harbor part 2. drone flies over sailboats in bird's eye view in 4k. sunny day and blue sky"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00345",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single action: drone flies over sailboats, aerial view",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Hawaiian flower opens early in the morning showing its nectar",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Hawaiian flower opens early in the morning showing its nectar"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00246",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "flower opening is a single biological process (growth/movement)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "The aerial footage of new york skyscrapers layout. 3d render.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The aerial footage of new york skyscrapers layout. 3d render."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00462",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static aerial layout of skyscrapers; 3D render, no motion or event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Caught in a snowstorm, a giraffe plows through deep snow, a white cloud billowing around it.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Caught in a snowstorm, a giraffe plows through deep snow, a white cloud billowing around it."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00086",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (giraffe plowing through snow) with atmospheric effect (snowstorm); no explicit physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Under a rainbow, a zebra kicks up a spray of water as it crosses a fast-flowing river.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Under a rainbow, a zebra kicks up a spray of water as it crosses a fast-flowing river."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00159",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "zebra crossing fast-flowing river (buoyancy, fluid dynamics) and kicking up water (momentum/fluid); physical interaction with water is central",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "the cat sits.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "the cat sits."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00528",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose (sits), no motion or physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "A bear, caught in a snowstorm, plows through deep drifts, powder exploding around it.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A bear, caught in a snowstorm, plows through deep drifts, powder exploding around it."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00680",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: bear plowing through snow, powder exploding (momentum + snow physics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "8k, ultra-detailed, a high-octane car chase during a lightning storm, electric bolts illuminating ((speeding cars)), (splashing puddles), (wind-whipped trees), frenetic camera angles capturing the stormy chaos.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "8k, ultra-detailed, a high-octane car chase during a lightning storm, electric bolts illuminating ((speeding cars)), (splashing puddles), (wind-whipped trees), frenetic camera angles capturing the stormy chaos."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00704",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "car chase, lightning storm, splashing puddles, wind-whipped trees, frenetic camera angles imply multiple distinct actions/events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a bus passes by outside.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a bus passes by outside."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00354",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "bus passes by is a single non-physics action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Tilt up of shirtless sportsman doing pull-ups on bars during cross-training workout at gym",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Tilt up of shirtless sportsman doing pull-ups on bars during cross-training workout at gym"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00412",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single action: sportsman doing pull-ups; plausible physics but not explicitly named",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "baby is smiling at camera.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "baby is smiling at camera."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00609",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose (smiling at camera), no motion verb",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Curious gray kitten. little cat at home. small pet",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Curious gray kitten. little cat at home. small pet"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00526",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "object attributes and static description, no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "the sun looks like a star for a couple of seconds",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "the sun looks like a star for a couple of seconds"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00576",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "atmospheric observation, no explicit action or physics, reads as a fleeting visual impression",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a small dog moves a fluffy white pillow",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a small dog moves a fluffy white pillow"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00212",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (moves pillow)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Macao beach with stone mountains aerial view from drone. travel destination. summer vacation. dominican republic",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Macao beach with stone mountains aerial view from drone. travel destination. summer vacation. dominican republic"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00410",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient aerial landscape, no action or object interaction",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a white horse standing beside red colored wearing girl dress standing with stick bending down knee  displaying on screen",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a white horse standing beside red colored wearing girl dress standing with stick bending down knee  displaying on screen"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00543",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with objects (horse, girl, stick), spatial relation (beside), and pose (bending down knee), no motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Taking cow milk cheese with fork 4k footage",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Taking cow milk cheese with fork 4k footage"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00373",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: taking cheese with fork",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "The bird asian brown flycatcher (muscicapa latirostris) standing on branch at fraser's hill, malaysia",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The bird asian brown flycatcher (muscicapa latirostris) standing on branch at fraser's hill, malaysia"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00344",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene: bird standing on branch, no action verb",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a male riding a motorcycle drifting a motorcycle around in a warehouse by keeping front wheel in place and back tire is spinning a circumference 360 degrees",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a male riding a motorcycle drifting a motorcycle around in a warehouse by keeping front wheel in place and back tire is spinning a circumference 360 degrees"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00400",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics-grounded event: motorcycle drifting in a circle (implies friction, momentum)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Amidst a meteor shower, a zebra sprints as fiery stars illuminate the night.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Amidst a meteor shower, a zebra sprints as fiery stars illuminate the night."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00157",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (zebra sprints) with meteor shower as ambient context; no explicit physics event enacted",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Cheerful smiling young man in santa hat with garlands in the background",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Cheerful smiling young man in santa hat with garlands in the background"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00261",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene: man smiling with background garlands, no motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Shopping cart at supermarket and retail store,business,advertising.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Shopping cart at supermarket and retail store,business,advertising."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00192",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with shopping cart at supermarket, no motion verbs or actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a first person view of a motorcycle riding down the street",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a first person view of a motorcycle riding down the street"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00232",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: motorcycle riding (first-person view)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "dog grabs bacon strip",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "dog grabs bacon strip"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00378",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: dog grabs bacon",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a large red vehicle with large tractor wheels on it driving over a snow covered bumpy terrain",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a large red vehicle with large tractor wheels on it driving over a snow covered bumpy terrain"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00295",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: vehicle driving over bumpy terrain (implies momentum, friction)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "A giraffe sprints across ice that cracks under its feet.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A giraffe sprints across ice that cracks under its feet."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00088",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: ice cracking under giraffe (mechanical/structural physics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Sanya, china - 12 december 2019: 4k video of electric scooters in traffic crossing the street",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Sanya, china - 12 december 2019: 4k video of electric scooters in traffic crossing the street"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00358",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "scooters in traffic crossing street is a single non-physics action event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "New york - august 21, 2012: daily city commuters and traffic",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "New york - august 21, 2012: daily city commuters and traffic"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00476",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "daily commuters and traffic implies ongoing movement, single event type",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a canoe sets sail with 2 girls and 1 guy",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a canoe sets sail with 2 girls and 1 guy"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00186",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: canoe sets sail (beginning motion)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "A thief sprints away from the scene, with the police in hot pursuit.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A thief sprints away from the scene, with the police in hot pursuit."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00118",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "thief sprints, police pursue—single chase action, no explicit physics or multi-event sequence",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Cars driving across causeway over ocean",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Cars driving across causeway over ocean"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00357",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "cars driving is a single non-physics action event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "white and blue transit pulls up",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "white and blue transit pulls up"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00187",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: transit pulls up (arrives)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "camera zooms in on the light on top of the building",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "camera zooms in on the light on top of the building"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00317",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: camera zooms in",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Grass moving in the breeze",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Grass moving in the breeze"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00249",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "grass moving in breeze is a physics event (wind + plant motion)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "London heathrow, united kingdom - 05 12 2019: 4k super-telephoto plane accelerates down hot runway through heat shimmer",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "London heathrow, united kingdom - 05 12 2019: 4k super-telephoto plane accelerates down hot runway through heat shimmer"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00321",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: plane accelerates (thrust, heat shimmer)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "A ceiling fan starts spinning rapidly, causing papers and lightweight objects around the room to dance in the air.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A ceiling fan starts spinning rapidly, causing papers and lightweight objects around the room to dance in the air."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00001",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: fan spinning causes air movement, lifting papers (fluid dynamics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a filled yellow school bus with over-sized black wheels drives through a flooded area with red lights on and gets splattered with mud",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a filled yellow school bus with over-sized black wheels drives through a flooded area with red lights on and gets splattered with mud"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00356",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "bus drives through flood and gets splattered with mud — single physics event (motion through fluid with resulting splatter)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "sun looks like a star",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "sun looks like a star"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00567",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "perceptual description (sun/star), no objects or actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Aerial view.  cute girl in the coat drive on country road on the bicycle",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Aerial view.  cute girl in the coat drive on country road on the bicycle"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00334",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single action: girl drives bicycle, no physics law explicitly invoked",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a black cow comes through a door into a small cage and runs around it before going back through the door again.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a black cow comes through a door into a small cage and runs around it before going back through the door again."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00369",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "three distinct actions: cow enters, runs around, exits",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "the cat looks at the camera",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "the cat looks at the camera"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00527",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (looks at camera), momentary event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "the elephant sprays water out of it's trunk",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "the elephant sprays water out of it's trunk"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00383",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: elephant sprays water",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Pine trees forest in winter, view from above",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Pine trees forest in winter, view from above"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00245",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static spatial scene, pine trees in winter, view from above, no motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Pink pygmy seahorse on gorgonian coral.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Pink pygmy seahorse on gorgonian coral."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00560",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static objects (seahorse on coral), spatial relation, no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "tree branch is in upper left hand side of screen",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "tree branch is in upper left hand side of screen"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00587",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static spatial relation (branch in upper left), no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "on a cartoon television show a horse is dancing around",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "on a cartoon television show a horse is dancing around"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00220",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: horse dancing",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Excavator dredging sediment mud from river aerial view and filling truck trailer with gravel",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Excavator dredging sediment mud from river aerial view and filling truck trailer with gravel"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00460",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: excavator dredging and filling truck (gravity, momentum, fluid dynamics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "The newlyweds in love look at the beautiful colorful explosions of fireworks. a young guy and a young girl are watching the festive fireworks.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The newlyweds in love look at the beautiful colorful explosions of fireworks. a young guy and a young girl are watching the festive fireworks."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00421",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single event: couple watching fireworks; fireworks as ambient effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "the sky gets darker.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "the sky gets darker."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00586",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event (sky darkening, likely due to sun setting or weather), continuous process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "the train begins to move on screen.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "the train begins to move on screen."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00285",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: train begins to move on screen",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "The cyclist pedaled furiously down the steep hill, wind rushing past him.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The cyclist pedaled furiously down the steep hill, wind rushing past him."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00132",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "pedaling down a steep hill involves gravity, momentum, and wind effects—physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "In a flash, a rider mounts a horse and they dash away.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In a flash, a rider mounts a horse and they dash away."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00094",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "two distinct actions (rider mounts, then they dash away) but phrased as a rapid sequence, borderline W4 due to clear separation",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Free happy woman arms outstretched enjoying nature on beach at sunset face raised towards sky slow motion red dragon",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Free happy woman arms outstretched enjoying nature on beach at sunset face raised towards sky slow motion red dragon"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00408",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W2"
+      ],
+      "confidence": 3,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: woman outstretched arms enjoying nature; 'slow motion red dragon' is ambiguous but likely style/atmosphere",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "A cat pounces on a moving toy train, creating a chaotic but swift derailment.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A cat pounces on a moving toy train, creating a chaotic but swift derailment."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00059",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: cat pounces, toy train derails (momentum transfer)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "the horses are about to take off for the 139th preakness stakes the crowd is cheering and the announcer shouts as the bell is rung and the horses are released",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "the horses are about to take off for the 139th preakness stakes the crowd is cheering and the announcer shouts as the bell is rung and the horses are released"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00389",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "sequence of 3+ distinct actions: crowd cheers, announcer shouts, bell rung, horses released",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Suddenly, a storm hits the city, rain pouring down like a torrent, making rivers on the streets.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Suddenly, a storm hits the city, rain pouring down like a torrent, making rivers on the streets."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00017",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: storm hits, rain pours, water flows (fluid dynamics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "dog is laying on the ground.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "dog is laying on the ground."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00541",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose (laying), no action or event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Group of seagulls perch on bridge rail  in the afternoon",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Group of seagulls perch on bridge rail  in the afternoon"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00176",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene (seagulls perch), time of day is style/setting",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "dog is getting treat.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "dog is getting treat."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00211",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single event (getting treat); no sequential actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Bud bright yellow crimson rose as decorative festive flower",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Bud bright yellow crimson rose as decorative festive flower"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00556",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static object (rose bud) with color attributes, no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "A zebra sprinting across the busy lanes of Times Square in New York City, with scene transitions occurring quickly as it moves from iconic billboards to bustling sidewalks filled with tourists.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A zebra sprinting across the busy lanes of Times Square in New York City, with scene transitions occurring quickly as it moves from iconic billboards to bustling sidewalks filled with tourists."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00805",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (sprinting) with scene transitions as co-occurring effects, not distinct events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "first time we see the boy smile",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "first time we see the boy smile"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00624",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: boy smiles (first time is narrative, but the action is concrete)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Two girls dance modern dances. women in swimsuits and leg warmers",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Two girls dance modern dances. women in swimsuits and leg warmers"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00434",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: dancing; static attributes (swimsuits, leg warmers)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "In the midst of the bustling city, a high-speed pursuit unfolds with vehicles weaving through traffic like arrows in flight. Transitioning seamlessly from chaos to controlled evasion, the chase intensifies against the backdrop of a setting sun.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In the midst of the bustling city, a high-speed pursuit unfolds with vehicles weaving through traffic like arrows in flight. Transitioning seamlessly from chaos to controlled evasion, the chase intensifies against the backdrop of a setting sun."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00672",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics event: pursuit with vehicles weaving; transitions and chaos are narrative, not distinct actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Slow motion portrait of positive hipster teenager wearing red cap and grey t-shirt smiling showing thumb up being in good mood being glad over white background closeup. concept of emotions",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Slow motion portrait of positive hipster teenager wearing red cap and grey t-shirt smiling showing thumb up being in good mood being glad over white background closeup. concept of emotions"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00266",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: teenager smiling and showing thumb up; 'slow motion' is a style, not a second event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "A runner explodes out of the starting blocks, racing down the track.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A runner explodes out of the starting blocks, racing down the track."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00121",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (runner explodes/races); no explicit physics process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "The canadian train, 1990, pov from train with scenery, lakes and mountains",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The canadian train, 1990, pov from train with scenery, lakes and mountains"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00444",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "POV with scenery and ambient description, no explicit action or event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Graceful ballerina in slow motion ballet dance",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Graceful ballerina in slow motion ballet dance"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00259",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: ballerina dancing in slow motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "passes by a parked pickup truck",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "passes by a parked pickup truck"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00290",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: subject passes by parked truck",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "A bear engages in a breakneck race with a downhill biker, dodging trees.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A bear engages in a breakneck race with a downhill biker, dodging trees."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00681",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single event: bear and biker racing, dodging trees is part of the main action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "The dog races up the stairs, skidding wildly into the kitchen.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The dog races up the stairs, skidding wildly into the kitchen."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00078",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "dog races up stairs (action 1), skids into kitchen (action 2); two distinct actions in sequence",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Sheeps graze grass on the green meadow. natural sunlight.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Sheeps graze grass on the green meadow. natural sunlight."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00273",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics-grounded event: sheep grazing (biological process), with natural sunlight as ambience",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "airplane with red body is shown for first time.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "airplane with red body is shown for first time."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00482",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static object (airplane) with color attribute, 'shown' implies first appearance but no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "San diego balboa park museum arched pathway with dog",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "San diego balboa park museum arched pathway with dog"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00304",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene: museum pathway, dog present, no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a red boat is first seen.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a red boat is first seen."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00502",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene: red boat is seen, no action or motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Automated industrial machines working on a brick factory.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Automated industrial machines working on a brick factory."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00398",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical/mechanical process: machines working (implies physics of automation)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "white sign in front of car is being shown",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "white sign in front of car is being shown"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00515",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static visual of sign in front of car, no action or event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Cowboys drive group of horses at farming enterprise.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Cowboys drive group of horses at farming enterprise."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00388",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single action: cowboys driving horses, no physics law invoked",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "the bird begins to eat the bread",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "the bird begins to eat the bread"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00498",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: bird begins to eat",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "camera is steady and looking at trees",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "camera is steady and looking at trees"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00590",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static camera view of objects (trees), no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a red truck drives behind the man.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a red truck drives behind the man."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00291",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: truck drives behind man",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a black dog walks in the room",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a black dog walks in the room"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00213",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (walks in)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Moscow, russian federation - may 26, 2015: airport worker installs pads under the gear of transaero boeing 777 ei-unp parking lot. oficial spotting in domodedovo airport (dme) on may 26, moscow",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Moscow, russian federation - may 26, 2015: airport worker installs pads under the gear of transaero boeing 777 ei-unp parking lot. oficial spotting in domodedovo airport (dme) on may 26, moscow"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00160",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (worker installs pads); static scene with one action, no explicit physics process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Aero flight over the sunflower field in sunrise.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Aero flight over the sunflower field in sunrise."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00236",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient aero flight, no focal action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "we first see the rock formation.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "we first see the rock formation."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00593",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene (rock formation is seen), no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "trolley comes into view",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "trolley comes into view"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00282",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: trolley comes into view",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "baby looks down from the camera",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "baby looks down from the camera"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00619",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: baby looks down",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "the cat is brushed",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "the cat is brushed"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00203",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: cat is brushed",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "a cartoon bear holding a box of cereal walks in a forest and meets a crocodile",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a cartoon bear holding a box of cereal walks in a forest and meets a crocodile"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00328",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "three distinct actions: bear holds, walks, meets crocodile, sequentially implied",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "A zebra navigating the rugged terrain of the Ngorongoro Crater, its agile movements carrying it through rocky outcrops and lush grasslands.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A zebra navigating the rugged terrain of the Ngorongoro Crater, its agile movements carrying it through rocky outcrops and lush grasslands."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00808",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (navigating) with description of terrain, not multiple distinct events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "this is an advertisement for a truck the camera is panning over it whiel an announcer is talking",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "this is an advertisement for a truck the camera is panning over it whiel an announcer is talking"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00296",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient camera panning, no focal action, advertisement context",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "Dog stands on the hind legs",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Dog stands on the hind legs"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00207",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose (stands on hind legs); no motion verb",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "devil_ood",
+    "prompt": [
+      {
+        "content": "A truck races down the hill, mud flying everywhere.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A truck races down the hill, mud flying everywhere."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_devil_00153",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "truck races down hill (action), mud flying is a co-occurring effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  }
+]

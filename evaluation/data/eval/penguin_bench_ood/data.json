@@ -1,0 +1,4819 @@
+[
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Under the ancient tree of the temple, three worshippers are devoutly kneeling to pray for blessings.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Under the ancient tree of the temple, three worshippers are devoutly kneeling to pray for blessings."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0239",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene: three worshippers kneeling, no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "There is a computer on the table, and the computer screen shows programs that are running.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "There is a computer on the table, and the computer screen shows programs that are running."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0416",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with object and screen state; 'programs running' is a static display, not a visual action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The wind blew through the broken window, scattering the papers on the table.The video is in black and white style.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The wind blew through the broken window, scattering the papers on the table.The video is in black and white style."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0311",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: wind (fluid dynamics) scatters papers (momentum/airflow)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Several pristine white nurse uniforms are hanging on the clothesline, with water droplets continuously falling from their edges.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Several pristine white nurse uniforms are hanging on the clothesline, with water droplets continuously falling from their edges."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0368",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "water droplets falling is a physical process (gravity, surface tension)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A sushi platter, with sushi wrapped in nori containing rice and raw fish slices, accompanied by a small dish of soy sauce and wasabi. The camera pans to right.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A sushi platter, with sushi wrapped in nori containing rice and raw fish slices, accompanied by a small dish of soy sauce and wasabi. The camera pans to right."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0395",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W0"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static food arrangement with camera pan (camera move, not subject action)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The Vatican's St. Peter's Basilica under the blue sky, with birds flying over the roof, and the camera moving vertically upward.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The Vatican's St. Peter's Basilica under the blue sky, with birds flying over the roof, and the camera moving vertically upward."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0276",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient scene with camera motion and birds flying as atmospheric motion, no focal narrative action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "In the garden early in the morning, two elderly people are practicing Tai Chi. Eye level shot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In the garden early in the morning, two elderly people are practicing Tai Chi. Eye level shot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0215",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (practicing Tai Chi), no sequence or physics law",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The lotus has emerald green leaves, the leaves are floating on the water, the petals of the lotus are as white as snow, medium close-up shot",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The lotus has emerald green leaves, the leaves are floating on the water, the petals of the lotus are as white as snow, medium close-up shot"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0492",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with object attributes (color, pose, composition), no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "In the aquarium tank, a group of tropical fish swim among the colorful coral reefs. The video captured in stunning 4K clarity.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In the aquarium tank, a group of tropical fish swim among the colorful coral reefs. The video captured in stunning 4K clarity."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0016",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: fish swimming among coral; 4K is a style attribute",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "By the azure sea, a little girl is picking up seashells, followed by a husky, rendered in pixel art style.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "By the azure sea, a little girl is picking up seashells, followed by a husky, rendered in pixel art style."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0080",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: girl picking up seashells; husky following is co-occurring",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Volcanic Eruption",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Volcanic Eruption"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0529",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical/geological event (eruption) implied by subject",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A streamlined interstellar spaceship glides slowly through the brilliance of a nebula, its surface adorned with smooth metal armor and twinkling navigation lights. The entire image presents a sci-fi art style.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A streamlined interstellar spaceship glides slowly through the brilliance of a nebula, its surface adorned with smooth metal armor and twinkling navigation lights. The entire image presents a sci-fi art style."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0466",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: spaceship glides slowly; rest is visual style",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Three paintings hang on the blue wall. The camera horizontally moving from left to right during shooting.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Three paintings hang on the blue wall. The camera horizontally moving from left to right during shooting."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0256",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with object count, color, spatial relation; camera move is not event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Under the starry sky, trees sway gently, and fireflies dot the night sky. A few people are sitting around a bonfire, chatting and laughing. The entire video presents a joyful atmosphere.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Under the starry sky, trees sway gently, and fireflies dot the night sky. A few people are sitting around a bonfire, chatting and laughing. The entire video presents a joyful atmosphere."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0064",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 3,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "multiple co-occurring simple actions (trees sway, people sit/chat/laugh, fireflies dot sky), but no clear 3+ distinct sequential events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A Russian white-collar worker is drinking coffee leisurely",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A Russian white-collar worker is drinking coffee leisurely"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0231",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: drinking coffee",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A mechanical bear walks through the white snow, leaving deep footprints. The video is presented in a sci-fi art style.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A mechanical bear walks through the white snow, leaving deep footprints. The video is presented in a sci-fi art style."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0483",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "walking through snow with footprints is a physics-grounded event (contact, deformation); sci-fi style is aesthetic",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A strawberry drops into a cocktail glass, causing a splash, captured with high-speed shot, in 2K quality.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A strawberry drops into a cocktail glass, causing a splash, captured with high-speed shot, in 2K quality."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0336",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: strawberry falls (gravity) and splashes (fluid dynamics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A whale leaps out of the sea, in anime style, captured from a bird's-eye view.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A whale leaps out of the sea, in anime style, captured from a bird's-eye view."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0033",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "whale leaping out of sea is a physics event (gravity, momentum)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A white man is running on the beach.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A white man is running on the beach."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0145",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: running",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "At night, the desert is bathed in moonlight, creating patches of silver on the sand dunes. The camera pans from left to right.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "At night, the desert is bathed in moonlight, creating patches of silver on the sand dunes. The camera pans from left to right."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0572",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient lighting and camera pan, no subject action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A blue cocktail with ice cubes floating at the top of the glass.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A blue cocktail with ice cubes floating at the top of the glass."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0390",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with object attributes (color, ice cubes floating), no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The seaweed in the water is slowly swaying.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The seaweed in the water is slowly swaying."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0511",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (swaying) as a gentle, non-causal motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "role": "user",
+        "content": "A bowl of seafood soup with shrimp, tomatoes, and lemon slices, the camera zooms in to highlight the small bubbles on the edges of the lemon slices."
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "style": "prompt_only",
+      "ground_truth": [
+        "A bowl of seafood soup with shrimp, tomatoes, and lemon slices, the camera zooms in to highlight the small bubbles on the edges of the lemon slices."
+      ]
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0373",
+    "layer": {
+      "primary": "W0",
+      "applicable": [
+        "W0"
+      ],
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "primary": "W0",
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "rationale": "aesthetic close-up with camera zoom, no focal action or event",
+      "enactable_in_short_clip": true,
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A red sports car is drifting quickly around the corner.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A red sports car is drifting quickly around the corner."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0365",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "drifting car is a single physics event (momentum, friction)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Raindrops pattered against the tightly closed windows.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Raindrops pattered against the tightly closed windows."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0305",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient atmospheric event (rain on windows), no focal subject action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A meteor streaked across the night sky rapidly.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A meteor streaked across the night sky rapidly."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0517",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: meteor streaking (gravity, friction, optics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Snowflakes gently falling from the sky, close-up shot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Snowflakes gently falling from the sky, close-up shot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0558",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical process: snowflakes falling (gravity, fluid dynamics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "In the movie theater, the big screen is playing a suspenseful film. The camera shoots from behind the audience, slowly moving forward along the aisle.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In the movie theater, the big screen is playing a suspenseful film. The camera shoots from behind the audience, slowly moving forward along the aisle."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0250",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single camera motion (slowly moving forward), ambient scene",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A small shrimp is holding food with its claws, nibbling at it bit by bit.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A small shrimp is holding food with its claws, nibbling at it bit by bit."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0015",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: shrimp nibbling food; holding is a static attribute",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "By the seaside, waves crash against the rocks, sending up sprays of foam.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "By the seaside, waves crash against the rocks, sending up sprays of foam."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0554",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical process: waves crashing (fluid dynamics, gravity)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Two kids are clapping their hands.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Two kids are clapping their hands."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0230",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: clapping hands",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A butterfly is fluttering.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A butterfly is fluttering."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0007",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: butterfly fluttering",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A man wearing headphones is listening to music, shaking his head. Medium close-up shot, neutral tones for the picture.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A man wearing headphones is listening to music, shaking his head. Medium close-up shot, neutral tones for the picture."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0147",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: shaking head while listening to music",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "In a bowl of white rice, a black kitten is struggling to climb over the grains of rice.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In a bowl of white rice, a black kitten is struggling to climb over the grains of rice."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0459",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: kitten struggling to climb (one event, not physics-grounded)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Outside the office building, there is a ground parking lot with several black cars parked. A bus slowly drives into the parking lot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Outside the office building, there is a ground parking lot with several black cars parked. A bus slowly drives into the parking lot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0248",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "static scene (cars parked) plus one action (bus drives in); if interpreted as sequence, two events, but not three, so W2/W4 borderline",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A medium close-up shot shot captures the white daffodil flowers gently drifting atop the water's surface.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A medium close-up shot shot captures the white daffodil flowers gently drifting atop the water's surface."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0504",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient, aesthetic scene with gentle drifting as atmospheric motion, no focal action or physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "In the sky above the forest, several crows are soaring. The setting sun casts its glow across the horizon, making the distant mountains clearly visible. The camera tilts upwards.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In the sky above the forest, several crows are soaring. The setting sun casts its glow across the horizon, making the distant mountains clearly visible. The camera tilts upwards."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0088",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: crows soaring; camera tilt is a co-occurring effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The turbulent river rushes forward.The video is in black and white style.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The turbulent river rushes forward.The video is in black and white style."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0580",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "river rushing is a continuous physical process (fluid dynamics), style is secondary",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A young mother carefully lifts the baby bottle to feed the infant.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A young mother carefully lifts the baby bottle to feed the infant."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0238",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: lifting bottle to feed infant",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The river rushes through the valley, with turbulent and surging waters. The river water crashes against the rocks.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The river rushes through the valley, with turbulent and surging waters. The river water crashes against the rocks."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0520",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: river water rushing and crashing (fluid dynamics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Raindrops pitter-patter against the window. The entire video presents a melancholic atmosphere.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Raindrops pitter-patter against the window. The entire video presents a melancholic atmosphere."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0565",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient atmosphere and sound, no focal action or object interaction",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A little girl, adorned with a red hairpin in her hair, smiles broadly, her happiness evident.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A little girl, adorned with a red hairpin in her hair, smiles broadly, her happiness evident."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0133",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: girl smiles broadly; happiness is an emotional state, not a separate action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The little girl pouted angrily.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The little girl pouted angrily."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0189",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (pouting)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The ancient Roman Colosseum, with the camera panning from left to right.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The ancient Roman Colosseum, with the camera panning from left to right."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0267",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "camera pan over a static landmark, no focal action or event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Ivy cascades down like a waterfall from above, the camera tilts downwards.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Ivy cascades down like a waterfall from above, the camera tilts downwards."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0493",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (ivy cascades down like a waterfall) plus camera motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A Chinese man wearing glasses sits on a bench reading a newspaper. He occasionally flips through the pages, pausing at times to read intently.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A Chinese man wearing glasses sits on a bench reading a newspaper. He occasionally flips through the pages, pausing at times to read intently."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0243",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "multiple distinct actions: sits reading, flips pages, pauses to read intently (3+ discrete actions)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "As evening falls, a Tesla sedan speeds along the mountain road, captured in realistic style.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "As evening falls, a Tesla sedan speeds along the mountain road, captured in realistic style."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0407",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: car speeding (momentum, friction)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Inside the library, a short-haired girl is searching for books on the shelf in front of her.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Inside the library, a short-haired girl is searching for books on the shelf in front of her."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0170",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: girl searching for books; no sequential events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "An Indian person sits at the dining table, raising his left hand to reach for the plate.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "An Indian person sits at the dining table, raising his left hand to reach for the plate."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0197",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "Single non-physics action: raising hand to reach for plate.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Spring has arrived, and peach trees are blooming with beautiful peach blossoms. The camera tilts upwards.Blue tint for the picture",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Spring has arrived, and peach trees are blooming with beautiful peach blossoms. The camera tilts upwards.Blue tint for the picture"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0501",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient scene, camera tilt, no focal action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A plane streaked across the sky, leaving a long contrail behind.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A plane streaked across the sky, leaving a long contrail behind."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0535",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event (plane moves, contrail forms = physics of flight/condensation)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "An explorer walks alone on a mountain path, captured in a long shot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "An explorer walks alone on a mountain path, captured in a long shot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0168",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: explorer walks; no multi-event sequence or explicit physics",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A white robot vacuum is cleaning the floor along the edge of the wall.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A white robot vacuum is cleaning the floor along the edge of the wall."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0357",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: robot vacuum cleaning along wall",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The flag flutters in the wind, with the camera capturing it from a low angle.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The flag flutters in the wind, with the camera capturing it from a low angle."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0412",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (flag flutters) with camera angle; no sequential or physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A goldfish swimming at the bottom of the water, with several aquatic plants nearby. The video is in HD quality.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A goldfish swimming at the bottom of the water, with several aquatic plants nearby. The video is in HD quality."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0017",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: goldfish swimming; plants are static context",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A desk lamp is lit, emitting yellow light. The video is taken with an arc shot surrounding the lamp.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A desk lamp is lit, emitting yellow light. The video is taken with an arc shot surrounding the lamp."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0370",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static lit lamp, arc shot is camera movement, focus on lighting and style",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Beneath the mouse lies a blue mouse pad, which a hand slowly draws away.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Beneath the mouse lies a blue mouse pad, which a hand slowly draws away."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0377",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (hand draws mouse pad away), clear subject and action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A white weighing scale. The video is shot with an arc shot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A white weighing scale. The video is shot with an arc shot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0376",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static object with camera movement (arc shot), no action or event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A red and yellow bus slowly makes its way along a mountain road, captured in a long shot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A red and yellow bus slowly makes its way along a mountain road, captured in a long shot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0378",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (bus moves slowly), long shot is style",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "In New York's Times Square, colorful neon lights flash incessantly, like stars dotting the sky, illuminating the entire block. The crowd bustles about, hurrying through the area. The camera switches to a quiet corner of a library in the city. Here, a reader is engrossed in reading a book in hand. His eyes are fixed on the pages, and his fingers gently turn each page.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In New York's Times Square, colorful neon lights flash incessantly, like stars dotting the sky, illuminating the entire block. The crowd bustles about, hurrying through the area. The camera switches to a quiet corner of a library in the city. Here, a reader is engrossed in reading a book in hand. His eyes are fixed on the pages, and his fingers gently turn each page."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0069",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "3+ distinct actions: neon lights flash, crowd bustles, camera switches, reader turns pages",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Filmed from a first-person perspective, the camera passes through the graffiti alley in Melbourne, Australia, where the graffiti walls are covered with artwork from many artists.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Filmed from a first-person perspective, the camera passes through the graffiti alley in Melbourne, Australia, where the graffiti walls are covered with artwork from many artists."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0263",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with camera movement, no action/event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Waves crash against the rock, slow motion shot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Waves crash against the rock, slow motion shot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0567",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: waves crashing (fluid dynamics, momentum)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Hot dog sausages are steaming continuously in the air fryer.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Hot dog sausages are steaming continuously in the air fryer."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0326",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous physical process (steaming = phase change/thermal)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A wild duck glides leisurely across the crystal-clear lake, leaving ripples in its wake, captured from a high angle shot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A wild duck glides leisurely across the crystal-clear lake, leaving ripples in its wake, captured from a high angle shot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0030",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "duck gliding creates ripples (fluid dynamics), a physics-grounded event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A red electric iron rests on a coat, with wisps of light smoke drifting around it.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A red electric iron rests on a coat, with wisps of light smoke drifting around it."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0400",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient scene with smoke drifting, no focal action or physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "a Antelope is drinking water by the creek, the camera moves vertically from top to bottom.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a Antelope is drinking water by the creek, the camera moves vertically from top to bottom."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0019",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: antelope drinking; camera move is a style/shot attribute",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Across the vast expanse of snow, numerous deep crevasses are scattered. A polar bear leisurely strolls across the icy terrain, its white fur blending seamlessly with the surrounding frozen landscape.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Across the vast expanse of snow, numerous deep crevasses are scattered. A polar bear leisurely strolls across the icy terrain, its white fur blending seamlessly with the surrounding frozen landscape."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0091",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: polar bear strolls; rest is static description",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Generate a video in which a circle gradually emerges.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Generate a video in which a circle gradually emerges."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0488",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process (circle gradually emerges); time-lapse of one process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The chimney of the power plant is slowly emitting black smoke, which has dyed the sky gray. Shot with a wide-angle lens.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The chimney of the power plant is slowly emitting black smoke, which has dyed the sky gray. Shot with a wide-angle lens."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0271",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical process: smoke emission and diffusion (fluid dynamics/atmospheric physics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Three little fishes are swimming around in the fish tank",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Three little fishes are swimming around in the fish tank"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0028",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (fishes swimming around); no physics law or multiple events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "On the dining table, there is a steaming hot and spicy hot pot with bright red chili oil, broccoli, mushrooms, and sesame seeds sprinkled on top. The video is taken with an arc shot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "On the dining table, there is a steaming hot and spicy hot pot with bright red chili oil, broccoli, mushrooms, and sesame seeds sprinkled on top. The video is taken with an arc shot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0363",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static food scene with ambient steam, arc shot is camera movement, no focal action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "There is a stream in the lush forest, flowing slowly.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "There is a stream in the lush forest, flowing slowly."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0581",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "stream flowing is a continuous physical process (fluid dynamics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The camera slowly pushes in, capturing a lush shrubbery on the sandy ground.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The camera slowly pushes in, capturing a lush shrubbery on the sandy ground."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0524",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "camera movement only, no subject action or event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A man exposes his arm, showing off the muscle lines on his arm, close-up.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A man exposes his arm, showing off the muscle lines on his arm, close-up."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0167",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: man exposing arm to show muscle",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Under the cherry blossom trees in Kyoto, there are two stone lions and two wooden stools. A gust of wind blew, and the cherry blossom petals fell one after another.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Under the cherry blossom trees in Kyoto, there are two stone lions and two wooden stools. A gust of wind blew, and the cherry blossom petals fell one after another."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0278",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "gust of wind causing petals to fall is a single physics-grounded event (wind + gravity), static objects described",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A hummingbird flaps its wings and hovers in front of a flower.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A hummingbird flaps its wings and hovers in front of a flower."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0037",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: hummingbird flaps and hovers (one continuous behavior)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "In the center of the living room, there is a sofa, and to the right of the sofa is a massage chair. The camera horizontally moving from left to right.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In the center of the living room, there is a sofa, and to the right of the sofa is a massage chair. The camera horizontally moving from left to right."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0420",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "static object layout with a single camera motion (horizontal pan), no physical/biological event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Various colored desk lamps, slowly lowering their heads. Shot from high angle.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Various colored desk lamps, slowly lowering their heads. Shot from high angle."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0469",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: lamps lowering heads; color and spatial info present but motion is focal",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A little girl is holding a balloon and running slowly forward.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A little girl is holding a balloon and running slowly forward."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0212",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (running with balloon), no sequence or physics law",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Under the old locust tree in the countryside, there is a stone table and three wooden chairs. The video is taken with a blurred background to highlight the table and chairs. The camera pans from left to right.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Under the old locust tree in the countryside, there is a stone table and three wooden chairs. The video is taken with a blurred background to highlight the table and chairs. The camera pans from left to right."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0293",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static objects, camera pan is ambient; focus on aesthetics and composition",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Four pedestrians are hurrying along under the streetlights at night.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Four pedestrians are hurrying along under the streetlights at night."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0217",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (hurrying/walking) by multiple subjects",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The teapot is on the left side of the teacup. The camera moves horizontally from right to left during shooting.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The teapot is on the left side of the teacup. The camera moves horizontally from right to left during shooting."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0341",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static object relation plus camera movement (no subject action)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "At night, the Oriental Pearl Tower emits colorful lights, with surrounding buildings towering into the clouds. The camera moves vertically from bottom to top.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "At night, the Oriental Pearl Tower emits colorful lights, with surrounding buildings towering into the clouds. The camera moves vertically from bottom to top."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0319",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient lighting, camera movement, no focal action or event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "There is a fishing boat speeding on the sea surface.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "There is a fishing boat speeding on the sea surface."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0392",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "fishing boat speeding is a single non-physics action (motion, but not explicitly physics-grounded)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "In the bedroom, there is an infant bed, and the camera zooms in to display the small baby pillow on the bed.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In the bedroom, there is an infant bed, and the camera zooms in to display the small baby pillow on the bed."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0333",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static scene with camera zoom, no subject action or event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The fan spins, in a realistic style.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The fan spins, in a realistic style."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0374",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (fan spins), realistic style",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The bright Polaris is hanging in the sky. Suddenly, a meteor streaked across beside it. The video is in a realistic style.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The bright Polaris is hanging in the sky. Suddenly, a meteor streaked across beside it. The video is in a realistic style."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0530",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "two distinct events: static Polaris, then meteor streaks by; 'suddenly' marks temporal sequence",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The sunset stains the sky red, and the waves gently lap against the rocks. The entire video presents a romantic atmosphere.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The sunset stains the sky red, and the waves gently lap against the rocks. The entire video presents a romantic atmosphere."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0534",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient atmosphere, no focal action, romantic style",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "In the bedroom, the ceiling fan is spinning rapidly.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In the bedroom, the ceiling fan is spinning rapidly."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0423",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: fan spinning (mechanical motion, not a physics test)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A girl in a red dress is swinging in the park.  Long shot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A girl in a red dress is swinging in the park.  Long shot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0208",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (swinging), no sequence or explicit physics law",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "In the morning, when the sun is about to appear, the sky appears dark blue, and as the sun rises, the sky gradually becomes brighter. The video is in anime style",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In the morning, when the sun is about to appear, the sky appears dark blue, and as the sun rises, the sky gradually becomes brighter. The video is in anime style"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0595",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous physical process: sky brightening as sun rises (time-lapse of one process)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A massive spaceship slowly glided above the Earth, casting a long shadow through the clouds.The video is in a realistic style\n.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A massive spaceship slowly glided above the Earth, casting a long shadow through the clouds.The video is in a realistic style\n."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0442",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single event: spaceship gliding above Earth (non-physics motion)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "After jumping on the sofa, the kitten lies down quietly on the sofa. The desk lamp beside it emits yellow light.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "After jumping on the sofa, the kitten lies down quietly on the sofa. The desk lamp beside it emits yellow light."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0086",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W4"
+      ],
+      "confidence": 3,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "at least 3 distinct actions: kitten jumps, lies down, lamp emits light",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A full shot captures the Arc de Triomphe in France, showcasing its majestic and spectacular architectural style. Then, the camera slowly pushes in, focusing on the bas-reliefs on the Arc de Triomphe.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A full shot captures the Arc de Triomphe in France, showcasing its majestic and spectacular architectural style. Then, the camera slowly pushes in, focusing on the bas-reliefs on the Arc de Triomphe."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0294",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "camera movement (pan/push-in) with static architecture, focus on style and composition",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A wide shot of a unicorn peacefully grazing in a lush, enchanted forest. The camera captures the unicorn’s shimmering coat, the magical glow of the surrounding flora, and the serene atmosphere of the scene.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A wide shot of a unicorn peacefully grazing in a lush, enchanted forest. The camera captures the unicorn’s shimmering coat, the magical glow of the surrounding flora, and the serene atmosphere of the scene."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0474",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient, aesthetic scene with no focal action, focus on atmosphere and style",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Tall chimneys billowing thick smoke, in a low angle shot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Tall chimneys billowing thick smoke, in a low angle shot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0249",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with object attributes (chimneys, smoke), no explicit action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Smoke billows through the air, captured in slow motion.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Smoke billows through the air, captured in slow motion."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0424",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient atmospheric motion (smoke billowing), no focal subject or discrete action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A hunter is aiming at a nearby elk, in a realistic style.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A hunter is aiming at a nearby elk, in a realistic style."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0153",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose: aiming; no explicit action or motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "Tears streamed down the girl's cheeks, leaving trails. The video presents a sorrowful atmosphere.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Tears streamed down the girl's cheeks, leaving trails. The video presents a sorrowful atmosphere."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0160",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: tears streaming down cheeks",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A curly-haired black woman is clearing the bar in a high jump competition,high saturation for the picture.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A curly-haired black woman is clearing the bar in a high jump competition,high saturation for the picture."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0240",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "high jump clearing the bar is a single physics-grounded event (gravity, momentum)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A cage of steamed dumplings was placed on the table, steaming hot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A cage of steamed dumplings was placed on the table, steaming hot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0337",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene: dumplings placed, steaming is a static attribute here, no motion verb",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "There is a green mailbox on the street. To the right of the mailbox is a flower shop. The camera moves horizontally from left to right.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "There is a green mailbox on the street. To the right of the mailbox is a flower shop. The camera moves horizontally from left to right."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0302",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with spatial relations and object placement; camera move is not focal action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The afterglow of the setting sun spills onto the lake surface, turning the water a golden yellow. The camera pans to the left.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The afterglow of the setting sun spills onto the lake surface, turning the water a golden yellow. The camera pans to the left."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0588",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient atmosphere, lighting, camera pan, no focal narrative action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A black sedan speeds through a puddle-slicked road, splashing water,presented in high-speed shot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A black sedan speeds through a puddle-slicked road, splashing water,presented in high-speed shot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0346",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: car speeds (momentum) and splashes water (fluid dynamics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "In the double-flavor hot pot, the left side is a tomato pot, and the right side is a spicy pot. The spicy pot is filled with floating Sichuan peppercorns, chili peppers, and other seasonings, accompanied by beef and vegetables, with continuous bubbles rising from the pot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In the double-flavor hot pot, the left side is a tomato pot, and the right side is a spicy pot. The spicy pot is filled with floating Sichuan peppercorns, chili peppers, and other seasonings, accompanied by beef and vegetables, with continuous bubbles rising from the pot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0361",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "continuous bubbles rising is a physical process (fluid dynamics/boiling); static object details are co-occurring",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "There is a mirror on the pink dressing table, and below the mirror, an ant is slowly crawling on the desktop.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "There is a mirror on the pink dressing table, and below the mirror, an ant is slowly crawling on the desktop."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0070",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "ant slowly crawling is a single non-physics action; rest is static scene",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A crystal snake, with its tongue flicking out, slithers quietly through a dim cave.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A crystal snake, with its tongue flicking out, slithers quietly through a dim cave."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0484",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (snake slithers, tongue flicks); no explicit physics law, no multiple events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A man with yellow skin is putting on glasses.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A man with yellow skin is putting on glasses."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0206",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (putting on glasses), no physics law or sequence",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A couple is watching the aurora. They occasionally look up to admire the aurora and frequently exchange glances. The video presents a romantic atmosphere.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A couple is watching the aurora. They occasionally look up to admire the aurora and frequently exchange glances. The video presents a romantic atmosphere."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0232",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "couple watches aurora (1), look up (2), exchange glances (3); three distinct actions, all concrete",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "There are five people in the conference room having a meeting, and one of them is speaking in front of the conference table.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "There are five people in the conference room having a meeting, and one of them is speaking in front of the conference table."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0125",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "Single event: one person speaking (others static); meeting context is static.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "On the street side, three people are chatting. Shot in medium shot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "On the street side, three people are chatting. Shot in medium shot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0218",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (chatting) in a static group scene",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "By the pond, red-crowned cranes are foraging.Medium shot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "By the pond, red-crowned cranes are foraging.Medium shot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0036",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: cranes foraging; no explicit physics law, but clear animal behavior",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The brown-haired woman's face turned red with anger as she clenched her fists.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The brown-haired woman's face turned red with anger as she clenched her fists."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0201",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "Single non-physics action: clenching fists with emotional reaction.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A blue tractor with the words \"Dongfanghong\" on it is parked on a cloud, with its exhaust pipe puffing out candy.Dark blue tint for the picture",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A blue tractor with the words \"Dongfanghong\" on it is parked on a cloud, with its exhaust pipe puffing out candy.Dark blue tint for the picture"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0464",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene: tractor parked, exhaust pipe puffing (could be W2, but 'puffing out candy' is a static visual effect)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The short-haired little girl sat on the bench, slowly lifting her head to watch the sunset.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The short-haired little girl sat on the bench, slowly lifting her head to watch the sunset."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0158",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: girl lifting head while sitting",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A white dove is flapping its wings, flying freely in the sky, in anime style.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A white dove is flapping its wings, flying freely in the sky, in anime style."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0010",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: dove flapping wings and flying",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "There are three children on the beach building sandcastles with sand, all wearing blue school uniforms. The video is shot from a low-angle perspective.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "There are three children on the beach building sandcastles with sand, all wearing blue school uniforms. The video is shot from a low-angle perspective."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0144",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: children building sandcastles; static attributes (uniforms, count, angle) are co-occurring",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "In the underwater world, a mermaid swims past colorful coral reefs, with the camera moving vertically from top to bottom during filming.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In the underwater world, a mermaid swims past colorful coral reefs, with the camera moving vertically from top to bottom during filming."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0480",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (mermaid swims) with camera motion; no explicit physics law, no multiple events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "In the garden the fountain gushes merrily. To the left of the fountain is placed a bench, and to the left of the bench is a flowerbed blooming with various colors of flowers. The camera pans to the left.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In the garden the fountain gushes merrily. To the left of the fountain is placed a bench, and to the left of the bench is a flowerbed blooming with various colors of flowers. The camera pans to the left."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0096",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W1",
+        "W2"
+      ],
+      "confidence": 3,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "Camera pans (motion event), fountain gushes (could be W3, but 'merrily' suggests stylized non-physics motion); spatial relations present but motion dominates.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "On the night street, the streetlights illuminate with a pale yellow light.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "On the night street, the streetlights illuminate with a pale yellow light."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0315",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static lighting/atmosphere, no action or object interaction",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "An Indian male hands a drink to a girl sitting next to him, green tint overlay for the video.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "An Indian male hands a drink to a girl sitting next to him, green tint overlay for the video."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0245",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: handing a drink",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A floral-patterned evening gown, with the camera moving vertically from top to bottom in a close-up shot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A floral-patterned evening gown, with the camera moving vertically from top to bottom in a close-up shot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0345",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "camera movement over static object, no subject action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "In the aquarium, two girls jump up happily, long shot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In the aquarium, two girls jump up happily, long shot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0222",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (jump up) by two subjects",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "The endless Great Wall weaves through the mountains like a dragon. The camera pans left horizontally.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The endless Great Wall weaves through the mountains like a dragon. The camera pans left horizontally."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0515",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single camera action (panning left), no object or physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A centenarian looks at the silent night sky and murmurs to himself. The entire video presents a sad atmosphere.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A centenarian looks at the silent night sky and murmurs to himself. The entire video presents a sad atmosphere."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0202",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W0"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "Single non-physics action: looking at sky and murmuring, with emotional/atmospheric cues.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "In the abandoned hospital corridor, the wall paint has peeled off, and discarded syringes and medicine bottles are visible everywhere on the ground. The camera slowly pushes in, creating a suspenseful atmosphere throughout the video.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In the abandoned hospital corridor, the wall paint has peeled off, and discarded syringes and medicine bottles are visible everywhere on the ground. The camera slowly pushes in, creating a suspenseful atmosphere throughout the video."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0297",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static objects, camera push-in, focus on atmosphere and suspense",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "At Shibuya Crossing in Tokyo, the crowds surge, and the neon lights flash. The entire video is in high-definition quality.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "At Shibuya Crossing in Tokyo, the crowds surge, and the neon lights flash. The entire video is in high-definition quality."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0321",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: crowds surge (motion event), neon lights flashing is ambient",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "penguin_bench_ood",
+    "prompt": [
+      {
+        "content": "A Latino man with brown skin is throwing punches in the boxing ring.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A Latino man with brown skin is throwing punches in the boxing ring."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_penguin_0226",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (throwing punches)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  }
+]

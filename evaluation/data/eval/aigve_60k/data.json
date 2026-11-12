@@ -1,0 +1,4801 @@
+[
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a camera moves toward and zooms in on a housecat outdoors",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a camera moves toward and zooms in on a housecat outdoors"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02459",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: camera moves and zooms in (single continuous camera action)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Sign of bitcoin and growing schedule. financial background made of glow particles as vitrtual hologram.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Sign of bitcoin and growing schedule. financial background made of glow particles as vitrtual hologram."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_02910",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static abstract scene, no concrete action, just visual motif",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a man with dark hair is talking and stretching out his arms.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a man with dark hair is talking and stretching out his arms."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02101",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single subject performing two co-occurring non-physics actions (talking and stretching arms)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Aerial view of the Eiffel Tower at night.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Aerial view of the Eiffel Tower at night."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_01749",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static aerial view, night atmosphere, no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of a guitar",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of a guitar"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_00018",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static object, no action or attributes specified",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Female theatre performer walking on stage. medium shot. profile view.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Female theatre performer walking on stage. medium shot. profile view."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02801",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: performer walking on stage",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Side view of a dragonfly resting on a leaf, with its wings glistening in the sunlight.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Side view of a dragonfly resting on a leaf, with its wings glistening in the sunlight."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_01294",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose (dragonfly resting), no motion verbs, wings glistening is ambient",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Seamless sparkling tunnel particle animation on black background",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Seamless sparkling tunnel particle animation on black background"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_02925",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "purely aesthetic/ambient animation, no narrative action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of an orange tennis racket and a yellow sports ball",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of an orange tennis racket and a yellow sports ball"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_aigve_00548",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with two named objects and color attributes, no motion or spatial relations",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A girl in a pink sweater holds her book tightly, her straight blonde hair framing her face.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A girl in a pink sweater holds her book tightly, her straight blonde hair framing her face."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01046",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose, object attributes, no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a white man is smoking a cigarette and brushes his hair",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a white man is smoking a cigarette and brushes his hair"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02188",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single subject, two co-occurring non-physics actions: smoking and brushing hair",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A wide shot of a beach and cliff with the ocean. camera moves forward",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A wide shot of a beach and cliff with the ocean. camera moves forward"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02934",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (camera moves forward); rest is static scene",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of a teapot",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of a teapot"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_00021",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static object, no action or attributes specified",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Hyperlapse shot through a corridor with flashing lights. A silver fabric files through the entire corridor.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Hyperlapse shot through a corridor with flashing lights. A silver fabric files through the entire corridor."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_03006",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: fabric flies through corridor, hyperlapse is stylized movement",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "an arial view of animals running",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "an arial view of animals running"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_02314",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "animals running: single non-physics action, aerial view",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a bike rider is riding fast and makes a very high jump",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a bike rider is riding fast and makes a very high jump"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02513",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: bike rider jumps high, invoking gravity and momentum",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A person claps their hands in joy, a wide grin stretching across their face as they celebrate a small victory with friends.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person claps their hands in joy, a wide grin stretching across their face as they celebrate a small victory with friends."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01147",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: clapping hands in joy, with emotional and static attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A couple shares a quiet moment under a starry sky, their hands entwined as they look at each other with deep love and trust.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A couple shares a quiet moment under a starry sky, their hands entwined as they look at each other with deep love and trust."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01187",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose (shares moment, hands entwined), emotional state is implied, no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "The camera rotates around a large stack of vintage televisions all showing different programs — 1950s sci-fi movies, horror movies, news, static, a 1970s sitcom, etc, set inside a large New York museum gallery.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The camera rotates around a large stack of vintage televisions all showing different programs — 1950s sci-fi movies, horror movies, news, static, a 1970s sitcom, etc, set inside a large New York museum gallery."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_01967",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: camera rotates around stack; TVs showing programs are static",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a man is talking to someone and stretches out his arms.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a man is talking to someone and stretches out his arms."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02099",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "two co-occurring non-physics actions (talking, stretching arms) by the same subject",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a vintage video of a bicycle",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a vintage video of a bicycle"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_aigve_00801",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "object depiction with style/fidelity, no action or relation specified",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of at the campsite",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of at the campsite"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_00769",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient location, no action or object structure specified",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of a carousel",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of a carousel"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_00087",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static object named with no action or motion verb",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Beautiful sunset light over a lake surrounded by green hills",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Beautiful sunset light over a lake surrounded by green hills"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_02906",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient atmosphere, no action, just lighting and landscape",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a woman in a red top is singing into a microphone, then lowers it",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a woman in a red top is singing into a microphone, then lowers it"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_02150",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "two distinct actions (singing, then lowers mic) with explicit temporal connective",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of a zebra below a broccoli",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of a zebra below a broccoli"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_00445",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with two named objects and a spatial relation ('below'), no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Side view of a ship sailing on the open ocean, with the horizon stretching far into the distance.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Side view of a ship sailing on the open ocean, with the horizon stretching far into the distance."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_01351",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: ship sailing (motion event), with static ocean context",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "ship in the sea",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "ship in the sea"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_02396",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene: ship in sea, no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of a seagull",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of a seagull"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_00045",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with a named object, no action or attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A parrot is guiding a spaceship through an asteroid field, squawking out coordinates to its crew.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A parrot is guiding a spaceship through an asteroid field, squawking out coordinates to its crew."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_aigve_01573",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: guiding spaceship; squawking is co-occurring, not a separate event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a bird flying",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a bird flying"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_02279",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: bird flying (lift, gravity)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a man covers his face with his hands.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a man covers his face with his hands."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02149",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (covers face) by a subject",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a face video with a happiness emotion, fair skin, and mouth slightly open",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a face video with a happiness emotion, fair skin, and mouth slightly open"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_01523",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with emotion, skin color, and mouth state, no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a man getting out of a helicopter at the top of a mountain about to ski down it",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a man getting out of a helicopter at the top of a mountain about to ski down it"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02451",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: man getting out of helicopter (skiing is only implied, not enacted)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A woman in a green dress walks through the garden, her curly brown hair bouncing with each step.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A woman in a green dress walks through the garden, her curly brown hair bouncing with each step."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01006",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (walks); hair bouncing is co-occurring effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Black birds soar smoothly in the air descend from top to bottom from right to left",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Black birds soar smoothly in the air descend from top to bottom from right to left"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02939",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (birds soaring/descending); no explicit physics process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Close up of a cool guy driving his car during a sunny morning!",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Close up of a cool guy driving his car during a sunny morning!"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_02865",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: person driving car",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a young woman wearing a mask on her motor scooter",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a young woman wearing a mask on her motor scooter"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02640",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with subject and attributes, no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Close up shot of a living flame wisp darting through a bustling fantasy market at night.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Close up shot of a living flame wisp darting through a bustling fantasy market at night."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_aigve_03045",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: flame wisp darting (no explicit physics law, fantasy context)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A ballerina in a pink tutu practices on stage, her blonde hair in a perfect bun as she floats gracefully across the floor.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A ballerina in a pink tutu practices on stage, her blonde hair in a perfect bun as she floats gracefully across the floor."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01059",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: ballerina practices/floats; static hair/tutu details",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a woman is gluing paper straws to a pink paper",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a woman is gluing paper straws to a pink paper"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_02723",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: woman gluing straws",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A large orange octopus is seen resting on the bottom of the ocean floor, blending in with the sandy and rocky terrain. Its tentacles are spread out around its body, and its eyes are closed. The octopus is unaware of a king crab that is crawling towards it from behind a rock, its claws raised and ready to attack. The crab is brown and spiny, with long legs and antennae. The scene is captured from a wide angle, showing the vastness and depth of the ocean. The water is clear and blue, with rays of sunlight filtering through. The shot is sharp and crisp, with a high dynamic range. The octopus and the crab are in focus, while the background is slightly blurred, creating a depth of field effect.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A large orange octopus is seen resting on the bottom of the ocean floor, blending in with the sandy and rocky terrain. Its tentacles are spread out around its body, and its eyes are closed. The octopus is unaware of a king crab that is crawling towards it from behind a rock, its claws raised and ready to attack. The crab is brown and spiny, with long legs and antennae. The scene is captured from a wide angle, showing the vastness and depth of the ocean. The water is clear and blue, with rays of sunlight filtering through. The shot is sharp and crisp, with a high dynamic range. The octopus and the crab are in focus, while the background is slightly blurred, creating a depth of field effect."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_aigve_01972",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene: octopus resting, crab crawling, spatial relations, no motion verbs beyond static pose",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A man in a white t-shirt stands on the beach, his shaggy blonde hair tousled by the sea breeze.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A man in a white t-shirt stands on the beach, his shaggy blonde hair tousled by the sea breeze."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01007",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose (stands), attributes (clothing, hair), no motion event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A woman in a black dress sits on a bench in the rain, her long dark brown hair wet and clinging to her face. Her eyes are downcast, and she seems lost in thought, the sadness evident in her posture.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A woman in a black dress sits on a bench in the rain, her long dark brown hair wet and clinging to her face. Her eyes are downcast, and she seems lost in thought, the sadness evident in her posture."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_01768",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose (sits, eyes downcast) with ambient rain; no explicit action or motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "First-person view of a person scuba diving in clear waters, surrounded by schools of fish and colorful coral.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "First-person view of a person scuba diving in clear waters, surrounded by schools of fish and colorful coral."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_01345",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: scuba diving (subject in motion), with static environment",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A woman stares anxiously at a phone, biting her lip as she waits for an important message, her brow furrowed in worry.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A woman stares anxiously at a phone, biting her lip as she waits for an important message, her brow furrowed in worry."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01173",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose (stares, bites lip, furrowed brow), no explicit action or motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a watercolor video of pink word \"HELLO\"",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a watercolor video of pink word \"HELLO\""
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_01823",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static depiction of a colored word; no objects or actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a girl is talking and then applying lipstick",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a girl is talking and then applying lipstick"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_02476",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "girl talks, then applies lipstick (2 distinct actions)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Rainbow over the bay in aerial drone view. sunrise blue ocean and distant cloud",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Rainbow over the bay in aerial drone view. sunrise blue ocean and distant cloud"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_02847",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient scene with rainbow, ocean, clouds, no focal action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of people sitting on a bench",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of people sitting on a bench"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_00973",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose: sitting on a bench, no motion verb",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "the toy bulldozer moves around",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "the toy bulldozer moves around"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02308",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "toy bulldozer moves around: single non-physics action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a military vehicle is driving fast across the desert",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a military vehicle is driving fast across the desert"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_02507",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (vehicle driving fast), no explicit physics law",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of a dolphin",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of a dolphin"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_00058",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static object, no action or attributes specified",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a boy holding a ball in his hand with one hand",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a boy holding a ball in his hand with one hand"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02666",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose: boy holding ball, explicit spatial relation, no motion verb",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a girl is laughing in the back of a truck.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a girl is laughing in the back of a truck."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_02240",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single action (laughing), location is static context",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A slow cinematic push in on an ostrich standing in a 1980s kitchen.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A slow cinematic push in on an ostrich standing in a 1980s kitchen."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_aigve_03012",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with spatial relation and pose, no motion verbs except camera movement (not subject action)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a man is hitting a woman across the parking lot.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a man is hitting a woman across the parking lot."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02057",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single action (hitting) across a location, no explicit physics law",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A basketball arcs through the air and swishes into the net.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A basketball arcs through the air and swishes into the net."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01654",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event (basketball arcing and swishing, governed by gravity and momentum)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A falling domino chain triggers sequential toppling from foreground to background.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A falling domino chain triggers sequential toppling from foreground to background."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01666",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: domino chain topples (momentum transfer, gravity)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "This close-up shot of a Victoria crowned pigeon showcases its striking blue plumage and red chest. Its crest is made of delicate, lacy feathers, while its eye is a striking red color. The bird’s head is tilted slightly to the side, giving the impression of it looking regal and majestic. The background is blurred, drawing attention to the bird’s striking appearance.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "This close-up shot of a Victoria crowned pigeon showcases its striking blue plumage and red chest. Its crest is made of delicate, lacy feathers, while its eye is a striking red color. The bird’s head is tilted slightly to the side, giving the impression of it looking regal and majestic. The background is blurred, drawing attention to the bird’s striking appearance."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_01958",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose, detailed object attributes, no explicit action or physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of a purple backpack and a white umbrella",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of a purple backpack and a white umbrella"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_aigve_00552",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with two named objects and color attributes, no motion or action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Smoke billows from the factory chimney.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Smoke billows from the factory chimney."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02524",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: smoke movement governed by fluid dynamics",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of a tambourine",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of a tambourine"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_00072",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static object, no action or event described",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Raising a glass of wine for a toast, filmed up close.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Raising a glass of wine for a toast, filmed up close."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_02572",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "raising a glass is a single non-physics action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A boat drifts gently to the right, following the current downstream.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A boat drifts gently to the right, following the current downstream."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01698",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "boat drifting with current is a physics event (fluid dynamics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of a green bus",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of a green bus"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_aigve_00365",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with a single named object and color attribute, no motion or action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Basketball player spins ball on finger, slow motion",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Basketball player spins ball on finger, slow motion"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02952",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (spins ball on finger); slow motion is a style modifier",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of a laptop left of a cow",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of a laptop left of a cow"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_00376",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with two objects and spatial relation (left of), no motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a person with a pink machine on a flat surface",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a person with a pink machine on a flat surface"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_aigve_02731",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with object and attribute (pink machine), no action or event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "two teams are playing football when one player scores a goal.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "two teams are playing football when one player scores a goal."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_02245",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "two events: playing (ongoing), then one scores (distinct action); 'when' implies sequence",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Aerial view of the Taj Mahal surrounded by fog.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Aerial view of the Taj Mahal surrounded by fog."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_01750",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static aerial view, fog as ambient atmosphere, no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of a yellow computer keyboard and a black sink",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of a yellow computer keyboard and a black sink"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_aigve_00476",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with color attributes, no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a horse follows two girls",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a horse follows two girls"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_02407",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single action: horse follows girls; no sequence or physics process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Needle mesotherapy in beauty spa salon or clinic. cosmetics been injected to woman's face, close up portrait",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Needle mesotherapy in beauty spa salon or clinic. cosmetics been injected to woman's face, close up portrait"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_02806",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: injection (fluid dynamics, biological interaction)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a cartoon video of an airplane",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a cartoon video of an airplane"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_aigve_00804",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "no action or relation, just a stylized depiction of an object",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A horse stands in a vast, open field, its mane blowing gently in the wind, but there is no rider atop it. The reins hang loosely, swaying slightly, while the horse gazes into the horizon, alone and unburdened, as if waiting for someone to guide it.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A horse stands in a vast, open field, its mane blowing gently in the wind, but there is no rider atop it. The reins hang loosely, swaying slightly, while the horse gazes into the horizon, alone and unburdened, as if waiting for someone to guide it."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_01931",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose: horse stands, mane blows gently; no explicit action or physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a man is twirling a blond woman wearing a red shirt",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a man is twirling a blond woman wearing a red shirt"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02171",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (twirling another person)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A hammer swings downward, striking the nail with precision before lifting back up.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A hammer swings downward, striking the nail with precision before lifting back up."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01736",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "swinging and striking nail are physics-grounded (momentum, impact)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "An astronaut in a white space suit floats in the ISS, their buzzed black hair hidden beneath a helmet.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "An astronaut in a white space suit floats in the ISS, their buzzed black hair hidden beneath a helmet."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01062",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: astronaut floats; static hair/helmet details",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of a tennis racket and a wine glass",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of a tennis racket and a wine glass"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_00104",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with two named objects, no action or relation specified",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "winner robot crate and barrel",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "winner robot crate and barrel"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_02722",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 2,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "'winner robot crate and barrel' is ambiguous, but likely a static scene with objects",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of people inspecting an apple",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of people inspecting an apple"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_00976",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: inspecting an apple",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of a ceramics spoon",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of a ceramics spoon"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_aigve_00673",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static object with material attribute, no action or spatial relation",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of a green couch and an orange umbrella",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of a green couch and an orange umbrella"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_aigve_00496",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with two named objects and color attributes, no motion or action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A koala is reading bedtime stories to a group of glowing fireflies in a mystical forest.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A koala is reading bedtime stories to a group of glowing fireflies in a mystical forest."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_aigve_01570",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: koala reading stories; fireflies/forest are static context",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Basketball through hoop then explodes.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Basketball through hoop then explodes."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01987",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "sequence: basketball through hoop (event 1), then explodes (event 2); if explosion is a separate event, this is a 2-event sequence, but 'then' suggests distinct moments",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Colored background pattern, vertically inclined that moves from top to bottom, composed of geometric shapes.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Colored background pattern, vertically inclined that moves from top to bottom, composed of geometric shapes."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02912",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: pattern moves from top to bottom",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A swimmer dives into the pool, moving swiftly forward before surfacing to the right.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A swimmer dives into the pool, moving swiftly forward before surfacing to the right."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01690",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "dives (1), moves forward (2), surfaces right (3): 3 distinct actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A raging wildfire spreads across the dry forest, the flames climbing higher and higher, burning everything in their path with furious intensity.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A raging wildfire spreads across the dry forest, the flames climbing higher and higher, burning everything in their path with furious intensity."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01128",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "wildfire spreading is a single physics event (combustion, propagation)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A golden eagle soaring high above the ruins of Machu Picchu, with the Andes in the distance.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A golden eagle soaring high above the ruins of Machu Picchu, with the Andes in the distance."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_01364",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (soaring), spatial relation (above ruins), no physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A man walks alone through an empty park, his shoulders slumped, and his face reflecting a deep sense of sadness.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A man walks alone through an empty park, his shoulders slumped, and his face reflecting a deep sense of sadness."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01163",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: walks with slumped shoulders, sadness",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A bigfoot is performing ballet in a theater.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A bigfoot is performing ballet in a theater."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_aigve_01644",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (performing ballet) by a subject",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "The colorful coral gardens of the Great Barrier Reef, with schools of fish swimming among the vibrant underwater ecosystem.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The colorful coral gardens of the Great Barrier Reef, with schools of fish swimming among the vibrant underwater ecosystem."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_01436",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "schools of fish swimming is a single non-physics action in a static coral scene",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Pink peony flower unfurling in time-lapse against a green backdrop.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Pink peony flower unfurling in time-lapse against a green backdrop."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_aigve_02552",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (flower unfurling) in time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A wild river rushes violently over rocks, its water splashing with fury and anger as it carves its path through the landscape.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A wild river rushes violently over rocks, its water splashing with fury and anger as it carves its path through the landscape."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01120",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event (river rushing, splashing, carving path—fluid dynamics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Two dolphins swim side by side in the crystal-clear ocean, their sleek bodies moving in perfect harmony. Their movements are fluid and synchronized, exuding a sense of deep connection. As they leap from the water together, their bodies briefly touch, symbolizing an unspoken bond of love and togetherness.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Two dolphins swim side by side in the crystal-clear ocean, their sleek bodies moving in perfect harmony. Their movements are fluid and synchronized, exuding a sense of deep connection. As they leap from the water together, their bodies briefly touch, symbolizing an unspoken bond of love and togetherness."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_01923",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: dolphins leap and touch; synchronized movement is one event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A book's pages flip rapidly leftward under a reader's thumb.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A book's pages flip rapidly leftward under a reader's thumb."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_01676",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: pages flipping rapidly is a mechanical/elastic process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of a kangaroo",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of a kangaroo"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_00036",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with a named object, no action or attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a young woman dressed in white is dancing",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a young woman dressed in white is dancing"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_02092",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (dancing) by a subject with static attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A woman in a white dress stands in a sunlit garden. Her yellow, curly hair is loosely gathered in a low bun, with a few strands softly framing her face.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A woman in a white dress stands in a sunlit garden. Her yellow, curly hair is loosely gathered in a low bun, with a few strands softly framing her face."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_00992",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose with detailed attributes, no motion verb",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "hands are moving along the strings of a guitar.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "hands are moving along the strings of a guitar."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02180",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics event: hands moving along guitar strings (continuous motion)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a man is walking on the rain, wearing a hat",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a man is walking on the rain, wearing a hat"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02089",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (walking) with static attributes (hat, rain); no physics or multiple events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "the person is standing in the middle of an office",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "the person is standing in the middle of an office"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02747",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose (person standing in office), no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Beautful underwater world with colorful colral reef in red sea",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Beautful underwater world with colorful colral reef in red sea"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_02900",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene: underwater world with coral reef, no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A basketball bounces away down the court.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A basketball bounces away down the court."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02546",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "bouncing is a physics-grounded event (momentum, elasticity)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Man ties up a red tie. green screen. close up",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Man ties up a red tie. green screen. close up"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_02813",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: man ties up tie",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of a train below an airplane",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of a train below an airplane"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_00433",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with explicit spatial relation (below), no motion/action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Detonation with a pink fire explosion on a dark background",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Detonation with a pink fire explosion on a dark background"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_aigve_02882",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: explosion (chemical/thermal physics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a person with a big chicken and get on its head is scaring another person.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a person with a big chicken and get on its head is scaring another person."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02128",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: scaring another person",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A video of a curious cow in a green meadow, with a laptop placed to the left of the cow on a grassy patch, surrounded by wildflowers and the sun setting in the background.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A video of a curious cow in a green meadow, with a laptop placed to the left of the cow on a grassy patch, surrounded by wildflowers and the sun setting in the background."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_01882",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with objects, spatial relation, and background, no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "rain is falling on a black umbrella.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "rain is falling on a black umbrella."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_aigve_02151",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event (rain falling, fluid dynamics/gravity)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a face video with pinched nose and straight hair",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a face video with pinched nose and straight hair"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_01466",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static face with shape and hair attributes (pinched nose, straight hair), no motion or event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Flowers sway in the wind",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Flowers sway in the wind"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_02927",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "flowers swaying in wind is a physics-grounded event (wind-induced motion)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a young girl with brown hair pulls something out of a package",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a young girl with brown hair pulls something out of a package"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02448",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: girl pulls something from package",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A dog is a chef in a mystical kitchen, cooking up magical dishes that cause time to freeze when they are served.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A dog is a chef in a mystical kitchen, cooking up magical dishes that cause time to freeze when they are served."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_aigve_01612",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "Distinct actions: cooking, serving, causing time to freeze (magical effect as a separate event)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A gorgeously rendered papercraft world of a coral reef, rife with colorful fish and sea creatures.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A gorgeously rendered papercraft world of a coral reef, rife with colorful fish and sea creatures."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_aigve_01957",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with spatial relations and object counts, focus on style and world-building, no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of people repairing an umbrella",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of people repairing an umbrella"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_00970",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: repairing an umbrella",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A kangaroo is playing ping-pong with a robotic opponent inside a glowing holographic arena.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A kangaroo is playing ping-pong with a robotic opponent inside a glowing holographic arena."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_aigve_01579",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: playing ping-pong; robotic opponent and arena are setting",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Timelapse of moving stars and the milky way in night sky.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Timelapse of moving stars and the milky way in night sky."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_02923",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "timelapse of stars/milky way is a continuous physical process (celestial motion)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A splash of red wine poured into a glass, captured in high definition.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A splash of red wine poured into a glass, captured in high definition."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02594",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: pouring liquid (fluid dynamics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of people cutting a sandwich",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of people cutting a sandwich"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_00946",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics event (cutting), no explicit physics law",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A close up view of a glass sphere that has a zen garden within it. There is a small dwarf in the sphere who is raking the zen garden and creating patterns in the sand.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A close up view of a glass sphere that has a zen garden within it. There is a small dwarf in the sphere who is raking the zen garden and creating patterns in the sand."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W3_aigve_01962",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W3"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: dwarf raking sand and creating patterns",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a video of people sitting on a pink plastic chair",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a video of people sitting on a pink plastic chair"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_01799",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: sitting on a chair",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a couple standing behind a microphone in front of an audience",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a couple standing behind a microphone in front of an audience"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W4_aigve_02653",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W4"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose (couple standing), spatial relations (behind/in front), no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a face video with a happiness emotion, small eyes, and short hair",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a face video with a happiness emotion, small eyes, and short hair"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_01514",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with emotion and facial features, no motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "Wheat stalks growing time-lapse isolated on a black background.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Wheat stalks growing time-lapse isolated on a black background."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_aigve_02553",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (wheat growing) in time-lapse",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "a person being given a coronovirus injection by someone",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a person being given a coronovirus injection by someone"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_aigve_02762",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: injection being given",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "aigve_60k",
+    "prompt": [
+      {
+        "content": "A stop motion animation of a flower growing out of the windowsill of a suburban house.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A stop motion animation of a flower growing out of the windowsill of a suburban house."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_aigve_01979",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process: flower grows (time-lapse)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  }
+]

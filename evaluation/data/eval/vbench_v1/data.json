@@ -1,0 +1,4798 @@
+[
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a sports ball",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=sports ball"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_object_class_0032",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "single static object, no action or attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "indoor gymnasium, frozen in time",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "indoor gymnasium, frozen in time"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_flickering_0012",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "'frozen in time' and location only, no action or object relations, purely static",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "An artist brush painting on a canvas close up.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "An artist brush painting on a canvas close up."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0025",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: brush painting",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, tilt up",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, tilt up"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0095",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static landscape with camera tilt up, a perceptual/cinematic effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "bridge",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "bridge"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_scene_0013",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "single location noun, no action or attributes; pure ambient scene",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a red umbrella",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "color=red"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_color_0031",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static object with color attribute, no action or relation",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a clock",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=clock"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_object_class_0073",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "single named object, no action or attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, featuring a steady and smooth perspective",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, featuring a steady and smooth perspective"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0078",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient atmospheric scene with no focal action, camera perspective only",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is dancing ballet",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is dancing ballet"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0089",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: dancing ballet",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A panda drinking coffee in a cafe in Paris, tilt up",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A panda drinking coffee in a cafe in Paris, tilt up"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0035",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (drinking) with tilt up camera movement",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is grooming dog",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is grooming dog"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0063",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: grooming dog",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "Turtle swimming in ocean.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Turtle swimming in ocean."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0001",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: turtle swimming",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is trimming or shaving beard",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is trimming or shaving beard"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0059",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: trimming or shaving beard",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a boat and an airplane",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=boat and airplane"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_multiple_objects_0041",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with two named objects, no attributes or motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "An astronaut is riding a horse in the space in a photorealistic style.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "An astronaut is riding a horse in the space in a photorealistic style."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0037",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (riding) by astronaut, photorealistic style",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a white cat",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "color=white"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_color_0028",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with object and color attribute, no motion or spatial relation",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is wrestling",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is wrestling"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0009",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (wrestling) by a subject",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a horse taking a peaceful walk",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a horse taking a peaceful walk"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0051",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: horse walking",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A panda drinking coffee in a cafe in Paris, pan right",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A panda drinking coffee in a cafe in Paris, pan right"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0034",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (drinking) with pan right camera movement",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is reading book",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is reading book"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0066",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (reading) by a subject",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a shark is swimming in the ocean, in super slow motion",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a shark is swimming in the ocean, in super slow motion"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0020",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (swimming) with temporal modifier (slow motion)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is sword fighting",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is sword fighting"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0075",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (sword fighting) by a subject",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a zebra running to join a herd of its kind",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a zebra running to join a herd of its kind"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0067",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (running to join herd); no explicit physics process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "valley",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "valley"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_scene_0082",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "named location, static, no action or attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a tennis racket",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=tennis racket"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_object_class_0038",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "single static object, no action or attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, racking focus",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, racking focus"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0079",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient atmospheric scene, camera focus effect, no focal action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a dog drinking water",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a dog drinking water"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0047",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: drinking involves fluid dynamics",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "an elephant spraying itself with water using its trunk to cool down",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "an elephant spraying itself with water using its trunk to cool down"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0059",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics-grounded event (spraying water, fluid dynamics, cooling)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is using computer",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is using computer"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0083",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: using computer",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "In a still frame, a tranquil pond was fringed by weeping cherry trees, their blossoms drifting lazily onto the glassy surface",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "In a still frame, a tranquil pond was fringed by weeping cherry trees, their blossoms drifting lazily onto the glassy surface"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_flickering_0071",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "atmospheric scene with blossoms drifting as ambient effect, no focal narrative action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A cute happy Corgi playing in park, sunset, zoom in",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A cute happy Corgi playing in park, sunset, zoom in"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0041",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (playing) with zoom in camera movement",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "mountain",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "mountain"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_scene_0053",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "single location noun, no objects, actions, or attributes specified",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a zebra bending down to drink water from a river",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a zebra bending down to drink water from a river"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0066",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics-grounded event (bending to drink involves gravity, fluid intake)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A corgi's head depicted as an explosion of a nebula",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A corgi's head depicted as an explosion of a nebula"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0050",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static depiction: corgi's head as nebula explosion, no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a person eating a burger",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a person eating a burger"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0003",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: eating",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a backpack",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=backpack"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_object_class_0024",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "single named object, no action or attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "an oven",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=oven"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_object_class_0068",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "single named object, no action or attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "The bund Shanghai, zoom out",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "The bund Shanghai, zoom out"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0012",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static cityscape, zoom out is a camera movement, no narrative action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "an orange umbrella",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "color=orange"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_color_0035",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static object with color attribute, no action or relation",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, pan right",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, pan right"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0094",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static landscape with camera pan right, a perceptual/cinematic effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a sheep on the left of a cow, front view",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object_a=sheep",
+        "object_b=cow",
+        "relationship=on the left of"
+      ],
+      "style": "spatial_relation"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_spatial_relationship_0014",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with spatial relation (left of), no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "an umbrella",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=umbrella"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_object_class_0025",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "single named object, no action or attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a cow chewing cud while resting in a tranquil barn",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a cow chewing cud while resting in a tranquil barn"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0057",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (chewing cud) while resting; no explicit physics process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A cute happy Corgi playing in park, sunset, with an intense shaking effect",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A cute happy Corgi playing in park, sunset, with an intense shaking effect"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0047",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (Corgi playing) with camera effect (shaking) as co-occurring effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a truck slowing down to stop",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a truck slowing down to stop"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0033",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "slowing down to stop is a single physics event involving momentum and friction",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is playing chess",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is playing chess"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0081",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: playing chess (moving pieces)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a bus turning a corner",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a bus turning a corner"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0024",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "'turning a corner' is a single physics event involving momentum and friction",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is throwing axe",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is throwing axe"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0040",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (throwing axe) by a subject",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a purple car",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "color=purple"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_color_0014",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static object with color attribute, no motion or spatial relation",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is climbing a rope",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is climbing a rope"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0087",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: climbing rope",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is doing laundry",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is doing laundry"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0064",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: doing laundry",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, with an intense shaking effect",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, with an intense shaking effect"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0097",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static landscape with an intense shaking effect, which is a perceptual/cinematic effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A fat rabbit wearing a purple robe walking through a fantasy landscape.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A fat rabbit wearing a purple robe walking through a fantasy landscape."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0007",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: rabbit walking",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a train and a boat",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=train and boat"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_multiple_objects_0040",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with two named objects, no attributes or motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a sheep bending down to drink water from a river",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a sheep bending down to drink water from a river"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0053",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: sheep drinking involves fluid dynamics",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a car accelerating to gain speed",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a car accelerating to gain speed"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0014",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "accelerating to gain speed is a single physics event involving force and acceleration",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a chair",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=chair"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_object_class_0056",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "single named object, no action or attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A beautiful coastal beach in spring, waves lapping on sand by Vincent van Gogh",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A beautiful coastal beach in spring, waves lapping on sand by Vincent van Gogh"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0066",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient scene, focus on style and atmosphere, no focal action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a person and a toilet",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=person and toilet"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_multiple_objects_0078",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene listing two objects with no actions or relations",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, in super slow motion",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, in super slow motion"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0060",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: boat sailing (leisurely), with slow motion as a style modifier",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0016",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static landscape description with spatial relations, no motion verbs or events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "An astronaut feeding ducks on a sunny afternoon, reflection from the water.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "An astronaut feeding ducks on a sunny afternoon, reflection from the water."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0004",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: astronaut feeding ducks",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A cat wearing sunglasses and working as a lifeguard at a pool.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A cat wearing sunglasses and working as a lifeguard at a pool."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0015",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with objects and attributes (cat, sunglasses, lifeguard role), no explicit action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A car moving slowly on an empty street, rainy evening",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A car moving slowly on an empty street, rainy evening"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0068",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (car moving slowly), with atmospheric detail (rainy evening)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a shark is swimming in the ocean, Van Gogh style",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "style=Van Gogh style"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_appearance_style_0018",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (swimming) with style descriptor",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a black cat",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "color=black"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_color_0027",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with object and color attribute, no motion or spatial relation",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a shark is swimming in the ocean, pan left",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a shark is swimming in the ocean, pan left"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0023",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (swimming) with camera pan effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A teddy bear washing the dishes",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A teddy bear washing the dishes"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0085",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (washing dishes) by subject",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a person and a hair drier",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=person and hair drier"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_multiple_objects_0079",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene listing two objects with no actions or relations",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is hula hooping",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is hula hooping"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0048",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (hula hooping)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a shark is swimming in the ocean, with an intense shaking effect",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a shark is swimming in the ocean, with an intense shaking effect"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0027",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (swimming) with camera shake effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A panda standing on a surfboard in the ocean in sunset.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A panda standing on a surfboard in the ocean in sunset."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0003",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose: panda standing on surfboard, no action verb",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a zebra taking a peaceful walk",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a zebra taking a peaceful walk"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0068",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (walking); no explicit physics process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a person swimming in ocean",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a person swimming in ocean"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0000",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: swimming",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "amusement park",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "amusement park"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_scene_0001",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient location, no objects or actions specified",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is drawing",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is drawing"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0005",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (drawing) by a subject",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A lightning striking atop of eiffel tower, dark clouds in the sky",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A lightning striking atop of eiffel tower, dark clouds in the sky"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0076",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event (lightning strike)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is laughing",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is laughing"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0022",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: laughing",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a boat accelerating to gain speed",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a boat accelerating to gain speed"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0037",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "accelerating to gain speed is a single physics event involving force and momentum",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a traffic light",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=traffic light"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_object_class_0009",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "single static object, no action or attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a snowboard on the bottom of a kite, front view",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object_a=snowboard",
+        "object_b=kite",
+        "relationship=on the bottom of"
+      ],
+      "style": "spatial_relation"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_spatial_relationship_0077",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with spatial relation (snowboard on bottom of kite), no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a toilet, frozen in time",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a toilet, frozen in time"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_flickering_0001",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene, named object (toilet), 'frozen in time' signals no action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a horse bending down to drink water from a river",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a horse bending down to drink water from a river"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0049",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: horse drinking involves fluid dynamics",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A panda drinking coffee in a cafe in Paris, oil painting",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "style=oil painting"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_appearance_style_0028",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: panda drinking; oil painting is style",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a motorcycle accelerating to gain speed",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a motorcycle accelerating to gain speed"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0019",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "accelerating to gain speed is a single physics event involving force and acceleration",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "an umbrella and a handbag",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=umbrella and handbag"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_multiple_objects_0021",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with two named objects, no attributes or motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a bird flying over a snowy forest",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a bird flying over a snowy forest"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0040",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "flying over is a single non-physics action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a cat playing in park",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a cat playing in park"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0042",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "playing is a single non-physics action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is shooting goal (soccer)",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is shooting goal (soccer)"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0018",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: shooting a soccer goal",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A teddy bear is playing drum kit in NYC Times Square.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A teddy bear is playing drum kit in NYC Times Square."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0045",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: teddy bear playing drums",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "An astronaut flying in space, with an intense shaking effect",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "An astronaut flying in space, with an intense shaking effect"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0087",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (flying), camera shake is a stylistic effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a donut on the bottom of broccoli, front view",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object_a=donut",
+        "object_b=broccoli",
+        "relationship=on the bottom of"
+      ],
+      "style": "spatial_relation"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_spatial_relationship_0071",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with spatial relation (donut on bottom of broccoli), no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a sheep and a cow",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=sheep and cow"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_multiple_objects_0004",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with two named objects, no motion or attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "beach",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "beach"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_scene_0011",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "single location noun, no action or attributes; pure ambient scene",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A beautiful coastal beach in spring, waves lapping on sand, with an intense shaking effect",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A beautiful coastal beach in spring, waves lapping on sand, with an intense shaking effect"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0007",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient scene with added camera shake, no focal narrative action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is running on treadmill",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is running on treadmill"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0091",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: running on treadmill",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a bear",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=bear"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_object_class_0021",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "single named object, no action or attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "An animated painting of fluffy white clouds moving in sky.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "An animated painting of fluffy white clouds moving in sky."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0011",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient atmospheric motion (clouds drifting), painterly style, no focal action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A Mars rover moving on Mars",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A Mars rover moving on Mars"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0054",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: rover moving, Mars is setting",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "Macro slo-mo. Slow motion cropped closeup of roasted coffee beans falling into an empty bowl.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Macro slo-mo. Slow motion cropped closeup of roasted coffee beans falling into an empty bowl."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0038",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event (beans falling under gravity, slow motion)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is making snowman",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is making snowman"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0098",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: making snowman",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "windmill",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "windmill"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_scene_0085",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "single object, no explicit action or relation, just a noun",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "Yellow flowers swing in the wind",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Yellow flowers swing in the wind"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0092",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: flowers swinging due to wind (fluid dynamics + elasticity)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "outdoor track",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "outdoor track"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_scene_0078",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W1"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "named location, static, no action or attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "junkyard",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "junkyard"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_scene_0046",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "single location noun, no action or object detail, ambient postcard",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a shark is swimming in the ocean, zoom out",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a shark is swimming in the ocean, zoom out"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0022",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (swimming) with camera zoom effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a dog and a horse",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=dog and horse"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_multiple_objects_0002",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with two named objects, no motion or attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "river",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "river"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_scene_0066",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "single location/natural feature noun, no action or object structure specified",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a fire hydrant and a stop sign",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=fire hydrant and stop sign"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_multiple_objects_0047",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with two named objects, no attributes or motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "Sewing machine, old sewing machine working.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Sewing machine, old sewing machine working."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0039",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (machine working/operating)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a black umbrella",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "color=black"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_color_0038",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static object with color attribute, no action or relation",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a train on the right of a boat, front view",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object_a=train",
+        "object_b=boat",
+        "relationship=on the right of"
+      ],
+      "style": "spatial_relation"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_spatial_relationship_0048",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with spatial relation (train right of boat), no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "scissors",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=scissors"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_object_class_0075",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "single static object, no action or attributes",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a sheep taking a peaceful walk",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a sheep taking a peaceful walk"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0054",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: sheep walking",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "shower",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "shower"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_scene_0068",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "single object/location noun, no action or object structure specified",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A person is crying",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A person is crying"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W2_vbench_v1_human_action_0088",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W2"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: crying",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a donut and a suitcase",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=donut and suitcase"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_multiple_objects_0069",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene listing two objects with no attributes or actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A cute happy Corgi playing in park, sunset, pan left",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A cute happy Corgi playing in park, sunset, pan left"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0043",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (Corgi playing) with camera motion (pan left) as co-occurring effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A jellyfish floating through the ocean, with bioluminescent tentacles",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A jellyfish floating through the ocean, with bioluminescent tentacles"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0053",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: jellyfish floating, bioluminescence is ambient",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a kite on the top of a skateboard, front view",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object_a=kite",
+        "object_b=skateboard",
+        "relationship=on the top of"
+      ],
+      "style": "spatial_relation"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_spatial_relationship_0078",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with spatial relation (kite on top of skateboard), no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "a person",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "object=person"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_vbench_v1_object_class_0000",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene listing a single object with no actions or relations",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "An epic tornado attacking above a glowing city at night, the tornado is made of smoke",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "An epic tornado attacking above a glowing city at night, the tornado is made of smoke"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0086",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "tornado (physics event) attacking city, smoke composition adds fantasy but core is physical process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "farm",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "farm"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_scene_0030",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "single location noun, no action or object detail, reads as ambient postcard",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A raccoon is playing the electronic guitar.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A raccoon is playing the electronic guitar."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0048",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: raccoon playing guitar",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "A cute fluffy panda eating Chinese food in a restaurant",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A cute fluffy panda eating Chinese food in a restaurant"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0072",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (panda eating), static setting",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "an airplane soaring through a clear blue sky",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "an airplane soaring through a clear blue sky"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_subject_consistency_0020",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "soaring is a single non-physics action (motion verb without explicit physics law)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "Aerial panoramic video from a drone of a fantasy land.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Aerial panoramic video from a drone of a fantasy land."
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_overall_consistency_0021",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "ambient panoramic view, no focal action or object interaction",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "vbench_v1",
+    "prompt": [
+      {
+        "content": "An astronaut flying in space, zoom out",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "An astronaut flying in space, zoom out"
+      ],
+      "style": "prompt_only"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W0_vbench_v1_temporal_style_0082",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W0"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (flying), camera zoom is a stylistic effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  }
+]

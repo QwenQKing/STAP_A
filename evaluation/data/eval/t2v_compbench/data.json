@@ -1,0 +1,4912 @@
+[
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Wave crashes into rocks, splashing water everywhere",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Wave crashes into rocks, splashing water everywhere"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0015",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "wave crashing and splashing involve fluid dynamics (physics event)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A cow walking in front of a chair",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "in front of(cow,chair)"
+      ],
+      "style": "spatial_relation"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_spatial_relationships_0061",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (cow walking), spatial relation to chair",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A child launching a kite into the air, where the wind catches and pulls it upward.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A child launching a kite into the air, where the wind catches and pulls it upward."
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0131",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "3 distinct actions: launch, wind catches, pulls upward (sequential, concrete events)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A green spaceship zooms past a purple airplane in the sky",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A green spaceship",
+        "a purple airplane"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0122",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: spaceship zooms past airplane; spatial relation present",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A man cooks dinner and a dog lounges in the sun",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a man?",
+        "a man cooks dinner?",
+        "a dog?",
+        "a dog lounges in the sun?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0050",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "two subjects each performing a single non-physics action simultaneously, no sequence",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A mother holding her baby, rocking gently on a rocking chair.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A mother holding her baby, rocking gently on a rocking chair."
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0140",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (rocking gently) with static pose (holding baby); no explicit physics law invoked",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A drone flies leftwards while a bird swoops rightwards",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=drone",
+        "direction=left"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0005",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "two subjects, each with a single non-physics action (drone flies, bird swoops); simultaneous, not sequential",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Two robots dance rhythmically in the lab.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=2 obj=robot"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0023",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "two robots dancing is a single non-physics action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A yellow crab scuttling beside a red surfboard on the sandy shore",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A yellow crab",
+        "a red surfboard"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0154",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics event: crab scuttling beside surfboard",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A frog perched on a refrigerator in a busy kitchen",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "on(frog,refrigerator)"
+      ],
+      "style": "spatial_relation"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_spatial_relationships_0038",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose (frog perched), spatial relation, no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Two people sit around a table, chatting as they share their meal.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=2 obj=person"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0046",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (chatting/sharing meal); two people in a single interaction event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A paper airplane gliding to the right across a classroom",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=paper airplane",
+        "direction=right"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0013",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: gliding (aerodynamics, gravity)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A robot walking from right to left in a factory",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=robot",
+        "direction=left"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0059",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (robot walking); direction and setting specified",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A car parked in front of a pig",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "in front of(car,pig)"
+      ],
+      "style": "spatial_relation"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_spatial_relationships_0066",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose (car parked), spatial relation to pig, no motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Warrior controls wind, creating a tornado",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Warrior controls wind, creating a tornado"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0045",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "creation of tornado is a single physical event (fluid dynamics), even if magical control is implied",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A man teaches his partner how to play a card game.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A man teaches his partner how to play a card game."
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0188",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 3,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (teaching) with implied interaction, no explicit sequence of events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "The flower is wilting and losing its vibrant color.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "vibrant flower",
+        "wilted, colorless flower"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_dynamic_attribute_binding_0177",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (wilting and color loss)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "One bubble floats in front of a shoe.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=1, 1 obj=bubble, shoe"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0019",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "bubble floats (static position), no motion verb, spatial relation only",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A hot air balloon floats downward, it gently approaches the grassy field.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=hot air balloon",
+        "direction=down"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0161",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "hot air balloon floats downward (buoyancy/gravity physics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Child plays with family dog at the beach",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Child plays with family dog at the beach"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0055",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: child playing with dog; no physical law or multiple events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "One skyscraper pierces the sky, shimmering in the sun.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=1 obj=skyscraper"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0005",
+    "layer": {
+      "applicable": [
+        "W0"
+      ],
+      "primary": "W0",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W0"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W0",
+      "rationale": "static scene with aesthetic/atmospheric focus, no motion or event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A group of volunteers works together to plant trees in a local park.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A group of volunteers works together to plant trees in a local park."
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0181",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single group action: planting trees (no explicit sequence of distinct actions)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A group of volunteers clean up a beach, working together to protect the environment",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A group of volunteers clean up a beach, working together to protect the environment"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0096",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: volunteers cleaning up beach",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Four fish swim gracefully in the sea.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=4 obj=fish"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0090",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "'swim' is a non-physics action verb for animals (fish) — single non-physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "The spaceship launches upward into the sky, trailing a brilliant glow.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=spaceship",
+        "direction=up"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0134",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: spaceship launch governed by thrust and gravity",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "The sun begins its descent, gradually sinking below the horizon",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=sun",
+        "direction=down"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0077",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: sun sinking below horizon (apparent motion, time-lapse)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A paper plane flying above a knitted vase",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a paper plane",
+        "a knitted vase"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0089",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: plane flying; static vase",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "The robot builds up from a simple metal framework into a fully armored machine.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "simple metal framework",
+        "fully armored robot"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_dynamic_attribute_binding_0189",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous mechanical assembly (robot builds up), time-lapse of one process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "clouds floating above a balloon",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "above(clouds,balloon)"
+      ],
+      "style": "spatial_relation"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_spatial_relationships_0122",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static spatial relation (clouds floating above balloon), no focal action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A tree is swaying in the wind while a fish is swimming in a pond below.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a tree?",
+        "a tree is swaying in the wind?",
+        "a fish?",
+        "a fish is swimming in a pond below?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0102",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "two subjects each performing a single non-physics action (swaying, swimming); simultaneous, not sequential",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Five rabbits hop through a meadow.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=5 obj=rabbit"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0118",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (hopping) by multiple subjects",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Three girls paint a large canvas together.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=3 obj=girl"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0078",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (paint) by multiple subjects; no explicit physics law invoked",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A purple tractor pulling a cart of orange carrots",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A purple tractor",
+        "a cart of orange carrots"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0156",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: tractor pulling cart; static attributes (colors, objects) also present",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A balloon is released upward at a wedding, the surface shimmering in the sunlight as it drifts higher.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=balloon",
+        "direction=up"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0149",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "balloon released upward is a buoyancy/physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A woman knits a sweater and a cat plays with the yarn",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a woman?",
+        "a woman knits a sweater?",
+        "a cat?",
+        "a cat plays with the yarn?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0068",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "two subjects each performing a single non-physics action (knits, plays)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A couple goes ice skating.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A couple goes ice skating."
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0196",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single event (ice skating) with implied motion, no explicit sequence or physics process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A cardboard castle collapses as a rubbery ball crashes into it",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A cardboard castle",
+        "a rubbery ball"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0186",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "castle collapsing from ball impact is a single physics event (collision, structural failure)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A pink chameleon changes its skin color to green",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "pink chameleon",
+        "green chameleon"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_dynamic_attribute_binding_0106",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single biological event: chameleon color change (biological mechanism)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A monkey in a pilot jacket and a parrot with aviator goggles ready for flight",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a monkey?",
+        "a monkey in a pilot jacket?",
+        "a parrot?",
+        "a parrot with aviator goggles ready for flight?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0043",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with objects and attributes (clothing, goggles), no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Three birds soar through the sky.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=3 obj=bird"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0055",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (soaring/flying) by three birds; no explicit physics law invoked",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Raccoon trash collector cleans up the park",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Raccoon trash collector cleans up the park"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0073",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (cleans up); no explicit sequence or multiple actions",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Silver-haired woman admiring a black grand piano",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "silver-haired woman",
+        "a black grand piano"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0048",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with two subjects and no motion verb; 'admiring' is a static pose",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A couple dances under the moonlight, their steps perfectly in sync with the romantic melody",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A couple dances under the moonlight, their steps perfectly in sync with the romantic melody"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0095",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: couple dancing in sync",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Two pandas munch bamboo in the garden.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=2 obj=panda"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0039",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (munch); pandas eating is one event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A cat climbing up a tall christmas tree",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=cat",
+        "direction=up"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0099",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (climbing), no explicit physics law",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A paper airplane gliding to the left across a classroom",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=paper airplane",
+        "direction=left"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0050",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event (gliding involves gravity, lift, drag)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A golden retriever scampering rightwards across a garden",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=golden retriever",
+        "direction=right"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0035",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (dog scampering); not explicitly physics-grounded",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A football rolling from the right to the left on the grass",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=football",
+        "direction=left"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0063",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: football rolling (momentum + friction)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Two girls paint a large canvas together.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=2 obj=girl"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0048",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (painting) by two subjects; no explicit physics law invoked",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A sleek motorcycle cruises left along the highway, engine roaring.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=motorcycle",
+        "direction=left"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0106",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (cruises left), engine roaring is a co-occurring effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Three trucks move along the road.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=3 obj=truck"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0072",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (move) by multiple subjects; no explicit physics law invoked",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Fluffy clouds in the sky shape themselves into letters, forming a word.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "fluffy clouds",
+        "clouds shaped into letters forming a word"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_dynamic_attribute_binding_0152",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous process: clouds morphing (fluid dynamics/shape change)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A kangaroo bounds alongside a moving bus",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a kangaroo?",
+        "a kangaroo bounds alongside?",
+        "a bus?",
+        "a bus moves?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0080",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "two subjects (kangaroo, bus) each performing a single non-physics action (bounds, moves) simultaneously",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Two children run along the tracks.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=2 obj=child"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0049",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (running) by two subjects; no explicit physics law invoked",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A raccoon climbing onto a fence, making it wobble from side to side.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A raccoon climbing onto a fence, making it wobble from side to side."
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0132",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: climbing causes fence to wobble (momentum, elasticity)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A little boy wearing a green jacket have a meal with a red spoon",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A little boy",
+        "a red spoon"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0126",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene: boy having meal with spoon; no explicit motion verb",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A horse galloping in front of a fence",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "in front of(horse,fence)"
+      ],
+      "style": "spatial_relation"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_spatial_relationships_0126",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (galloping) by horse; spatial relation to fence",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Four boxes are placed on the table.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=4 obj=box"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0096",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with count and spatial relation, no motion verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A duck swims in the pond and a frog hops onto a lily pad",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a duck?",
+        "a duck swims in the pond?",
+        "a frog?",
+        "a frog hops onto a lily pad?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0021",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "two animals each performing a single non-physics action (swims, hops), no sequential connectives or physics law invoked",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A boy is climbing a tree in the yard, while a cat is drinking water from a bowl.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a boy?",
+        "a boy is climbing a tree in the yard?",
+        "a cat?",
+        "a cat is drinking water from a bowl?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0149",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "two subjects each performing a single non-physics action simultaneously",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A ceramic vase is lifted upward on an invisible wire during a photoshoot, the intricate floral designs glowing under the studio lights.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=ceramic vase",
+        "direction=up"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0148",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "vase lifted by wire is a physical event (mechanical lifting against gravity)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A cat paints a canvas while a dog jumps rope.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a cat?",
+        "a cat paints a canvas?",
+        "a dog?",
+        "a dog jumps rope?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0192",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "two subjects each performing a single non-physics action simultaneously; no sequential or physics-based events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Two fish swim gracefully in the sea.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=2 obj=fish"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0030",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "'swim' is a single non-physics action for animate subjects (fish)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A banana peel blackening after being discarded",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A yellow banana peel",
+        "A blackened banana peel"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_dynamic_attribute_binding_0031",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single biological/chemical process: banana peel blackening (oxidation/decay)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A man jogs through the park and a dog fetches a stick",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a man?",
+        "a man jogs through the park?",
+        "a dog?",
+        "a dog fetches a stick?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0045",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "two subjects each performing a single non-physics action simultaneously, no sequence",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A kid climbs a tree, a horse grazes nearby",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a kid?",
+        "a kid climbs a tree?",
+        "a horse?",
+        "a horse grazes nearby?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0048",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "two subjects each performing a single non-physics action simultaneously, no sequence",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A pink star rises from the bottom to the top of the screen, set against a blue background",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=pink star",
+        "direction=up"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0094",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: star rises (no explicit physics law invoked)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A girl in a yellow dress races a boy in a blue hoodie, both laughing as they run through the park",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A girl in a yellow dress",
+        "a boy in a blue hoodie"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0138",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: both race/run (laughter is ambient, not a separate action)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A pink dolphin leaping over a blue sailboat, splashing sparkling droplets everywhere",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A pink dolphin",
+        "a blue sailboat"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0153",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics event: dolphin leaps, splash is co-occurring effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A balloon deflating as air is released.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "inflated balloon",
+        "deflated balloon"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_dynamic_attribute_binding_0130",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical process: balloon deflating (air pressure, elasticity)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A pigeon taking off from a lamppost, causing loose feathers to float down slowly.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A pigeon taking off from a lamppost, causing loose feathers to float down slowly."
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0149",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: pigeon takes off (biomechanics) causing feathers to float (aerodynamics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A cyberpunk chibi cat riding in rocket upwards",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=cyberpunk chibi cat",
+        "direction=up"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0089",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: cat riding rocket upwards (rocket motion not described as physics event)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "An apple rises upward, while a kite falls downward.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=apple",
+        "direction=up"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0182",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "simultaneous physics events (rising/falling = gravity/buoyancy)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A baby crawling on the left of a kitten in the living room",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "left(baby,kitten)"
+      ],
+      "style": "spatial_relation"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_spatial_relationships_0167",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: baby crawling; spatial relation present",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Two rabbits hop through a meadow.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=2 obj=rabbit"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0028",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "'hop' is a single non-physics action for animate subjects (rabbits)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Boy with a cap playing soccer with a girl wearing a red shirt",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "boy with a cap",
+        "a girl wearing a red shirt"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0066",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (playing soccer), two subjects interacting in one event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Elderly man feeds pigeons, surrounded by fluttering wings",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Elderly man feeds pigeons, surrounded by fluttering wings"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0086",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: feeding pigeons; fluttering wings as co-occurring effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A man proposes to his partner in a flower-filled park.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A man proposes to his partner in a flower-filled park."
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0184",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single event: proposal action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Balloon pops when pricked with a needle",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Balloon pops when pricked with a needle"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0039",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: balloon pops from needle prick (surface tension, rupture)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "The tree fills out from bare branches into lush, green foliage.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "bare tree branches",
+        "lush, green tree"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_dynamic_attribute_binding_0180",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous biological process (tree leafing out)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Two hikers celebrate reaching the mountain peak.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Two hikers celebrate reaching the mountain peak."
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0192",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single event (celebrating) with no explicit sequence or physics process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A gentle swan glides right over the lake, its feathers creating small, graceful ripples in the water.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=swan",
+        "direction=right"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0128",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "swan gliding creates ripples (fluid dynamics), a physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A marble teapot pours tea into a parchment cup, steam rising into the crisp morning air",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A marble teapot",
+        "a parchment cup"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0177",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: teapot pours (fluid dynamics), steam rises (thermal)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "An apple is tossed upward from a basket.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=apple",
+        "direction=up"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0142",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: apple tossed upward governed by momentum and gravity",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "An umbrella is fluttering in the strong wind, while a bus is waiting at the crowded bus stop.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "an umbrella?",
+        "an umbrella is fluttering in the strong wind?",
+        "a bus?",
+        "a bus is waiting at the crowded bus stop?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0135",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "umbrella fluttering and bus waiting are non-physics actions; wind is context, not explicit physics process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Man with a balloon head juggling transparent apples",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "man with a balloon head",
+        "transparent apples"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0091",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: juggling; surreal attributes but one action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A plane touching down on a runway, causing a cloud of smoke as the tires meet the asphalt.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A plane touching down on a runway, causing a cloud of smoke as the tires meet the asphalt."
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0123",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: plane touchdown creates smoke (friction, momentum)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A parrot flying under a drone",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "under(parrot,drone)"
+      ],
+      "style": "spatial_relation"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_spatial_relationships_0056",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (parrot flying), spatial relation to drone",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A skateboard glides right along the pavement, its wheels spinning rapidly beneath a vibrant deck.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=skateboard",
+        "direction=right"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0133",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: skateboard gliding and wheel spinning governed by momentum and friction",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A pair of scissors cuts through fabric",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A pair of scissors cuts through fabric"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0025",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: scissors cutting fabric (mechanical separation)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A blue dolphin leaping over a pink sailboat, splashing sparkling droplets everywhere",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A blue dolphin",
+        "a pink sailboat"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0152",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics event: dolphin leaps, splash is co-occurring effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Young boy tossing a leather baseball glove",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "young boy",
+        "a leather baseball glove"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0049",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: tossing a glove; no explicit physics law invoked",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A snail crosses the path as a butterfly flutters above",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a snail?",
+        "a snail crosses the path?",
+        "a butterfly?",
+        "a butterfly flutters above?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0007",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "Two subjects each perform a single non-physics action (crosses, flutters) simultaneously; no sequential connectives or physics law.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A parent teaches a child to ride a bike",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A parent teaches a child to ride a bike"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0097",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: parent teaching child to ride bike (teaching as one event)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Green parrot perching on a brown chair",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "green parrot",
+        "a brown chair"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0003",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose (perching), objects, colors, spatial relation",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "One tree by the river, and one bubble rises drifting upwards.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=1, 1 obj=tree, bubble"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0013",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "bubble rising/drifting is a single physics event (buoyancy/air flow)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Pig with wings flying above a diamond mountain",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "pig with wings",
+        "a diamond mountain"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0093",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: pig flying; surreal but one action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A frog leaping onto a wet rock, causing droplets to splash into the air.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A frog leaping onto a wet rock, causing droplets to splash into the air."
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0144",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: frog leap (biomechanics) causes splash (fluid dynamics)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A dolphin jumps next to a speeding boat",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a dolphin?",
+        "a dolphin jumps next to?",
+        "a boat?",
+        "a boat speeds?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0086",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "two subjects (dolphin, boat) each performing a single non-physics action (jumps, speeds) simultaneously",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A boat sails to the right on the ocean",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=boat",
+        "direction=right"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0037",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: boat sails; no explicit physics law",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A sofa is carried upward by a giant helium balloon, floating lazily into the sky above a summer festival.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=sofa",
+        "direction=up"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0153",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "sofa carried by helium balloon is a buoyancy/physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Three pandas munch on bamboo, and four elephants spray water.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=3, 4 obj=panda, elephant"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0180",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "two distinct concrete actions (munch, spray) by different subjects, joined by 'and'",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A fluffy pillow is tossed upward into the air, feathers fluffing out as it rises.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=pillow",
+        "direction=up"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0135",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: pillow tossed upward governed by gravity and momentum",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Father helps his daughter build a sandcastle at the beach.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Father helps his daughter build a sandcastle at the beach."
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0156",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single event: father helps daughter build sandcastle; collaborative building as one action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A rabbit playing under a desk",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "under(rabbit,desk)"
+      ],
+      "style": "spatial_relation"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_spatial_relationships_0099",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (rabbit playing), spatial context (under desk)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A rabbit skateboards through town while an owl watches a movie.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a rabbit?",
+        "a rabbit skateboards through town?",
+        "an owl?",
+        "an owl watches a movie?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0187",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "two subjects each performing a single non-physics action simultaneously; no sequential or physics-based events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Two rabbits dash across the garden, and eight butterflies flutter nearby.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=2, 8 obj=rabbit, butterfly"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0185",
+    "layer": {
+      "applicable": [
+        "W4"
+      ],
+      "primary": "W4",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W4"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W4",
+      "rationale": "two distinct actions (dash, flutter) by different subjects, joined by 'and'",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A large flag is hoisted upward on the flagpole, while a bird flying downwards from the flagpole to the ground.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=large flag",
+        "direction=up"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0199",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "hoisting flag (mechanical force) and bird flying down (gravity, lift) are physics events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A cat is stretching on a sunlit windowsill, while a dog is digging in the garden.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a cat?",
+        "a cat is stretching on a sunlit windowsill?",
+        "a dog?",
+        "a dog is digging in the garden?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0121",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "two subjects each performing a single non-physics action (stretching, digging) simultaneously; no sequential events",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Four cows amble through the pasture.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=4 obj=cow"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0101",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (amble); multiple subjects but one event type",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Six robots dance rhythmically in the lab.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=6 obj=robot"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0143",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (dance) by multiple subjects; no explicit physics law invoked",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Grandmother bakes cookies with her granddaughter in the kitchen.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Grandmother bakes cookies with her granddaughter in the kitchen."
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0159",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single event: baking cookies together; collaborative baking as one action",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A fish dives downward in the deep sea",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=fish",
+        "direction=down"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0085",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: fish dives (no explicit physics law invoked)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A white horse gallops past a brown fence, kicking up dust",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A white horse",
+        "a brown fence"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0105",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: horse gallops; dust is a co-occurring effect",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A dog chases after a balloon drifting in the wind",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a dog?",
+        "a dog chases after a balloon?",
+        "a balloon?",
+        "a balloon drifts in the wind?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0074",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single subject performing a non-physics action (chases), balloon drifting is ambient motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Fisherman feeds seagulls at the dock",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Fisherman feeds seagulls at the dock"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0058",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: fisherman feeding seagulls",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Two cups sit on a table, steaming with fresh coffee.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=2 obj=cup"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0034",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with objects, spatial relation, and attribute (steaming) but no motion verb",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A yellow hair drier blasts air onto a purple towel, making the fabric ripple gracefully",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A yellow hair drier",
+        "a purple towel"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_consistent_attribute_binding_0115",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "air blast causing fabric to ripple is a physics event (fluid dynamics, elasticity)",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Two trucks move along the road.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=2 obj=truck"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0042",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action (move); trucks moving is one event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A kite flies right to left on a windy day",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=kite",
+        "direction=left"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0047",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 4,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: kite flies; wind is ambient, not explicit physics event",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A squirrel scurries up a tree as a bat flies out from the leaves",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a squirrel?",
+        "a squirrel scurries up a tree?",
+        "a bat?",
+        "a bat flies out from the leaves?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0009",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "Two subjects each perform a single non-physics action (scurries, flies) simultaneously; no sequential connectives or physics law.",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Knife sharpens pencil",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "Knife sharpens pencil"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0032",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physical event: sharpening involves friction and material removal",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A large flag is hoisted upward on the flagpole, unfurling and catching the breeze as it rises.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "subject=flag",
+        "direction=up"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_motion_binding_0137",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2",
+        "W3"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single physics event: flag hoisted and unfurling governed by mechanical motion and wind",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A woman gives an old lady a bouquet of fresh flowers.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "A woman gives an old lady a bouquet of fresh flowers."
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_object_interactions_0164",
+    "layer": {
+      "applicable": [
+        "W2"
+      ],
+      "primary": "W2",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W2"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single non-physics action: giving flowers",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A horse standing on a table",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "on(horse,table)"
+      ],
+      "style": "spatial_relation"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_spatial_relationships_0120",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static pose (horse standing), spatial relation (on table), no motion",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "A fox wears VR goggles while a raccoon rides a scooter.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "a fox?",
+        "a fox wears VR goggles?",
+        "a raccoon?",
+        "a raccoon rides a scooter?"
+      ],
+      "style": "motion_action"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_action_binding_0195",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W1",
+      "rationale": "static scene with two subjects each described by an attribute (wearing/using something), no action verbs",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "Three people sit around a table, chatting as they share their meal.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "count=3 obj=person"
+      ],
+      "style": "numeracy"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_generative_numeracy_0076",
+    "layer": {
+      "applicable": [
+        "W1"
+      ],
+      "primary": "W1",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W1",
+        "W2"
+      ],
+      "confidence": 3,
+      "enactable_in_short_clip": true,
+      "primary": "W2",
+      "rationale": "single event (sit/chat/share) is a co-occurring social action, not three distinct events; no explicit sequence",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  },
+  {
+    "data_source": "t2v_compbench",
+    "prompt": [
+      {
+        "content": "The car transforms from a vintage model into a sleek, modern sports car.",
+        "role": "user"
+      }
+    ],
+    "ability": "t2v_generation",
+    "reward_model": {
+      "ground_truth": [
+        "vintage car model",
+        "sleek, modern sports car"
+      ],
+      "style": "attribute_match"
+    },
+    "image_urls": [],
+    "images": [],
+    "prompt_id": "W1_t2vcb_dynamic_attribute_binding_0194",
+    "layer": {
+      "applicable": [
+        "W3"
+      ],
+      "primary": "W3",
+      "source_label": "W1"
+    },
+    "layer_verified": {
+      "applicable": [
+        "W3",
+        "W4"
+      ],
+      "confidence": 5,
+      "enactable_in_short_clip": true,
+      "primary": "W3",
+      "rationale": "single continuous transformation (car morphing from vintage to modern), time-lapse of one process",
+      "verifier_model": "gpt-4.1"
+    },
+    "split": "eval"
+  }
+]
