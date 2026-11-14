@@ -139,22 +139,22 @@ ROUND_WEIGHTS = {'first': 0.3, 'middle': 0.2, 'last': 0.3}
 
 def format_reward(input_string: list):
     n = len(input_string)
-    if n == 0:
-        return 0.0, 0
+    generate_count = sum(1 for resp in input_string if '<generate>' in resp)
+    if n < 2:
+        return 0.0, generate_count
     weighted_sum = 0.0
-    generate_count = 0
+    total_weight = 0.0
     for i, resp in enumerate(input_string):
-        if '<generate>' in resp:
-            generate_count += 1
         if i == 0:
             kind = 'first'
         elif i == n - 1:
             kind = 'last'
         else:
             kind = 'middle'
+        total_weight += ROUND_WEIGHTS[kind]
         if _check_round(resp, kind):
             weighted_sum += ROUND_WEIGHTS[kind]
-    return min(weighted_sum, 1.0), generate_count
+    return weighted_sum / total_weight, generate_count
 
 
 def compute_score(prediction: list, ground_truth: list, extra_info=None):

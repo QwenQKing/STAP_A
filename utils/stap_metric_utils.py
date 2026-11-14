@@ -27,6 +27,9 @@ def aggregate_stap_metrics_from_list(all_m, prefix='STAP/') -> dict:
     if pc:
         result[f'{prefix}paint_count/mean'] = float(np.mean(pc))
         result[f'{prefix}paint_count/max'] = float(np.max(pc))
+        result[f'{prefix}paint_count/min'] = float(np.min(pc))
+        for k in range(1, int(np.max(pc)) + 1):
+            result[f'{prefix}paint_count/frac_{k}'] = float(np.mean([c == k for c in pc]))
 
     result[f'{prefix}format_perfect_ratio'] = sum(1 for m in all_m if m.get('format_score', 0.0) >= 1.0) / n
 
