@@ -66,6 +66,21 @@ def _strict_shape(r: str, tags: list) -> bool:
     return re.match(pat, r.strip(), re.DOTALL) is not None
 
 
+_STRATA = ('W0', 'W1', 'W2', 'W3', 'W4')
+
+
+def _evaluate_ok(evaluate: str) -> bool:
+    lines = [l.strip() for l in evaluate.strip().splitlines() if l.strip()]
+    if len(lines) != len(_STRATA) + 1:
+        return False
+    for line, tag in zip(lines, _STRATA):
+        m = re.match(r'^%s\s*[:：]\s*(\S.*)$' % tag, line)
+        if not m:
+            return False
+    m = re.match(r'^Primary\s*[:：]\s*(W[0-4])\b', lines[-1], re.IGNORECASE)
+    return m is not None
+
+
 def _check_round(assistant_block: str, kind: str) -> bool:
     r = assistant_block.strip()
 
@@ -98,7 +113,7 @@ def _check_round(assistant_block: str, kind: str) -> bool:
         reason   = re.search(r'<reason>(.*?)</reason>',     r, re.DOTALL).group(1).strip()
         evaluate = re.search(r'<evaluate>(.*?)</evaluate>', r, re.DOTALL).group(1).strip()
         generate = re.search(r'<generate>(.*?)</generate>', r, re.DOTALL).group(1).strip()
-        return bool(reason) and bool(evaluate) and bool(generate)
+        return bool(reason) and _evaluate_ok(evaluate) and bool(generate)
 
     if kind == 'last':
         ok_count = (
@@ -114,7 +129,7 @@ def _check_round(assistant_block: str, kind: str) -> bool:
         reason   = re.search(r'<reason>(.*?)</reason>',     r, re.DOTALL).group(1).strip()
         evaluate = re.search(r'<evaluate>(.*?)</evaluate>', r, re.DOTALL).group(1).strip()
         complete = re.search(r'<complete>(.*?)</complete>', r, re.DOTALL).group(1).strip()
-        return bool(reason) and bool(evaluate) and complete == 'end'
+        return bool(reason) and _evaluate_ok(evaluate) and complete == 'end'
 
     return False
 

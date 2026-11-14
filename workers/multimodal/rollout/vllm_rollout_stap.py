@@ -69,12 +69,33 @@ class vLLMRollout_MultiTurn_STAP(vLLMRollout):
             print(f"Error: {e} | user_prompt_last_round falls back to a built-in default")
         if not self.user_prompt_last_round:
             self.user_prompt_last_round = (
-                "Since this is the final round, you must output <complete>end</complete> to "
-                "complete the task and must not output <generate>.\n"
-                "Please output in the following format:\n"
-                "<reason>your reasoning process here</reason>\n"
-                "<evaluate>your visual assessment here</evaluate>\n"
-                "<complete>end</complete>\n"
+                'This is the FINAL round, so you can no longer refine - you must finish now.\n'
+                '\n'
+                'Assess the video along the following five world-consistency strata:\n'
+                'W0 (perceptual and spatiotemporal fidelity): per-frame visual quality, sharpness, artifacts, and temporal flicker.\n'
+                'W1 (object and relation structure): whether the required objects, attributes, counts, and spatial relations appear and persist.\n'
+                'W2 (event and interaction dynamics): whether the described actions, motions, and interactions happen as described.\n'
+                'W3 (intuitive physical plausibility): whether motion, contact, gravity, fluids, and deformation look physically plausible.\n'
+                'W4 (temporal-causal coherence): whether events happen in a sensible order with consistent causes and effects.\n'
+                '\n'
+                'In <reason>...</reason>, give your reasoning. In <evaluate>...</evaluate>, give one line of feedback for each stratum W0 to W4, then name the primary failing stratum.\n'
+                '\n'
+                'Your ENTIRE response must be EXACTLY this format, with nothing before, after, or between the tags except line breaks:\n'
+                '<reason>your reasoning process here</reason>\n'
+                '<evaluate>\n'
+                'W0: your assessment of perceptual and spatiotemporal fidelity\n'
+                'W1: your assessment of object and relation structure\n'
+                'W2: your assessment of event and interaction dynamics\n'
+                'W3: your assessment of intuitive physical plausibility\n'
+                'W4: your assessment of temporal-causal coherence\n'
+                'Primary: the single stratum (W0, W1, W2, W3, or W4) with the most severe problem\n'
+                '</evaluate>\n'
+                '<complete>end</complete>\n'
+                '\n'
+                'Rules:\n'
+                '- You must output <complete>end</complete> and must NOT output <generate>.\n'
+                '- Inside <evaluate>, write exactly the six lines W0:, W1:, W2:, W3:, W4:, and Primary:, each non-empty.\n'
+                '- Do NOT write anything outside these tags.\n'
             )
 
         self.t2v_base_url = (gen_cfg.get('base_url', '') if gen_cfg else '')

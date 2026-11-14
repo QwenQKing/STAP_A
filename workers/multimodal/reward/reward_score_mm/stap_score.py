@@ -814,7 +814,7 @@ def compute_score(prediction: list, ground_truth: list, extra_info=None):
         }
         return 0.0
 
-    description = ground_truth[0] if ground_truth else ""
+    description = extra_info.get("input_text") or (ground_truth[0] if ground_truth else "")
     primary = extra_info.get("layer", "W0")
     frames = _decode_frames(video_path, N_JUDGE_FRAMES)
     if not frames:

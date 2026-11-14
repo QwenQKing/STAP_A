@@ -119,6 +119,17 @@ class RLHFDataset(Dataset):
         tokenizer = self.tokenizer
         prompt_key = self.prompt_key
 
+        def _with_input_text(extra_info, prompt):
+            info = dict(extra_info) if isinstance(extra_info, dict) else {}
+            info['input_text'] = str(prompt[0]['content']).strip()
+            return info
+
+        if 'extra_info' not in self.dataframe.columns:
+            self.dataframe['extra_info'] = [None] * len(self.dataframe)
+        self.dataframe['extra_info'] = [
+            _with_input_text(ei, pr) for ei, pr in zip(self.dataframe['extra_info'], self.dataframe[prompt_key])
+        ]
+
         if self.user_prompt_round_1 is not None:
             with open(
                 self.user_prompt_round_1, 'rb'

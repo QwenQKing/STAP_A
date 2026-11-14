@@ -30,15 +30,17 @@ def load_score_module():
 
 
 def text_from_sample(s):
-    gt = s.get("reward_model", {}).get("ground_truth")
-    if isinstance(gt, list) and gt and isinstance(gt[0], str):
-        return gt[0]
     p = s.get("prompt", "")
     if isinstance(p, list):
         for item in p:
             if isinstance(item, dict) and isinstance(item.get("content"), str):
                 return item["content"]
-    return p if isinstance(p, str) else ""
+    if isinstance(p, str) and p:
+        return p
+    gt = s.get("reward_model", {}).get("ground_truth")
+    if isinstance(gt, list) and gt and isinstance(gt[0], str):
+        return gt[0]
+    return ""
 
 
 def read_data():
